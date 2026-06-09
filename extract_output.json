@@ -1,0 +1,398 @@
+{
+  "imgs": [
+    {
+      "line": 399,
+      "src": "/logo.webp"
+    },
+    {
+      "line": 1232,
+      "src": "_next/static/media/hamburger.084a1bc2.svg"
+    },
+    {
+      "line": 1320,
+      "src": "images/landing-hero.webp"
+    },
+    {
+      "line": 1545,
+      "src": "_next/alien-sitting.gif?url=https%3A%2F%2Fd295q1lbtarn4h.cloudfront.net%2Fgifs%2Falien-sitting.gif&amp;w=256&amp;q=75"
+    },
+    {
+      "line": 1706,
+      "src": "_next/static/media/ios.bf451e7f.svg"
+    },
+    {
+      "line": 1709,
+      "src": "_next/static/media/android.a305525d.svg"
+    },
+    {
+      "line": 1713,
+      "src": "_next/static/media/chrome.331862c0.png"
+    },
+    {
+      "line": 2324,
+      "src": "_next/im-token.webp?url=%2Fim-token.webp&amp;w=256&amp;q=75"
+    },
+    {
+      "line": 2522,
+      "src": "_next/time-token-small.jpeg?url=https%3A%2F%2Fd295q1lbtarn4h.cloudfront.net%2Fimages%2Ftime-token-small.webp&amp;w=128&amp;q=75"
+    },
+    {
+      "line": 2565,
+      "src": "_next/im-token-small.jpeg?url=https%3A%2F%2Fd295q1lbtarn4h.cloudfront.net%2Fimages%2Fim-token-small.webp&amp;w=128&amp;q=75"
+    },
+    {
+      "line": 2607,
+      "src": "_next/future-token-small.jpeg?url=https%3A%2F%2Fd295q1lbtarn4h.cloudfront.net%2Fimages%2Ffuture-token-small.webp&amp;w=128&amp;q=75"
+    },
+    {
+      "line": 2723,
+      "src": "building.webp"
+    },
+    {
+      "line": 2874,
+      "src": "images/phone-app.webp"
+    },
+    {
+      "line": 3329,
+      "src": "_next/static/media/ios.bf451e7f.svg"
+    },
+    {
+      "line": 3333,
+      "src": "_next/static/media/android.a305525d.svg"
+    },
+    {
+      "line": 3337,
+      "src": "_next/static/media/chrome.331862c0.png"
+    },
+    {
+      "line": 3385,
+      "src": "images/home-box.webp"
+    },
+    {
+      "line": 3732,
+      "src": "_next/static/media/ios.bf451e7f.svg"
+    },
+    {
+      "line": 3735,
+      "src": "_next/static/media/android.a305525d.svg"
+    },
+    {
+      "line": 3739,
+      "src": "_next/static/media/chrome.331862c0.png"
+    },
+    {
+      "line": 3819,
+      "src": "logo.webp"
+    },
+    {
+      "line": 4028,
+      "src": "_next/static/media/telegram.d21c9810.svg"
+    },
+    {
+      "line": 4031,
+      "src": "_next/static/media/twitter.49f1dd3b.svg"
+    },
+    {
+      "line": 4034,
+      "src": "_next/static/media/reddit.cf78f4a4.svg"
+    },
+    {
+      "line": 4037,
+      "src": "_next/static/media/youtube.21a4bb13.svg"
+    },
+    {
+      "line": 4040,
+      "src": "_next/static/media/gitlab.c574302e.svg"
+    },
+    {
+      "line": 4193,
+      "src": "img/cakewallet.png"
+    },
+    {
+      "line": 4205,
+      "src": "img/trustwallet.png"
+    },
+    {
+      "line": 4213,
+      "src": "img/ledgerwallet.png"
+    },
+    {
+      "line": 4221,
+      "src": "img/metamask.png"
+    },
+    {
+      "line": 4259,
+      "src": "img/pera.png"
+    },
+    {
+      "line": 4266,
+      "src": "img/rainbow.png"
+    },
+    {
+      "line": 4273,
+      "src": "img/basewallet.png"
+    },
+    {
+      "line": 4280,
+      "src": "img/rabby.png"
+    },
+    {
+      "line": 4287,
+      "src": "img/zerion.png"
+    },
+    {
+      "line": 4294,
+      "src": "img/walletconnect.png"
+    },
+    {
+      "line": 4301,
+      "src": "img/phantomwallet.png"
+    },
+    {
+      "line": 4308,
+      "src": "img/stepn.png"
+    },
+    {
+      "line": 4315,
+      "src": "img/solflare.png"
+    },
+    {
+      "line": 4322,
+      "src": "img/okx.png"
+    },
+    {
+      "line": 4329,
+      "src": "img/terrastation.png"
+    },
+    {
+      "line": 4336,
+      "src": "img/safepal.png"
+    },
+    {
+      "line": 4343,
+      "src": "img/exodus.png"
+    },
+    {
+      "line": 4350,
+      "src": "img/atomic.png"
+    },
+    {
+      "line": 4357,
+      "src": "img/trezor.png"
+    },
+    {
+      "line": 4364,
+      "src": "img/tokenpocket.png"
+    },
+    {
+      "line": 4371,
+      "src": "img/uniswap.png"
+    },
+    {
+      "line": 4378,
+      "src": "img/cryptocom.png"
+    },
+    {
+      "line": 4385,
+      "src": "img/keplr.png"
+    },
+    {
+      "line": 4392,
+      "src": "img/leapwallet.png"
+    },
+    {
+      "line": 4399,
+      "src": "img/tangem.png"
+    },
+    {
+      "line": 4406,
+      "src": "img/jade.png"
+    },
+    {
+      "line": 4413,
+      "src": "img/polkadot.png"
+    },
+    {
+      "line": 4420,
+      "src": "img/talisman.png"
+    },
+    {
+      "line": 4427,
+      "src": "img/nami.png"
+    },
+    {
+      "line": 4434,
+      "src": "img/eternl.png"
+    },
+    {
+      "line": 4441,
+      "src": "img/bitkeep.png"
+    },
+    {
+      "line": 4448,
+      "src": "img/martian.png"
+    },
+    {
+      "line": 4455,
+      "src": "img/suiet.png"
+    },
+    {
+      "line": 4462,
+      "src": "img/huobi.png"
+    },
+    {
+      "line": 4469,
+      "src": "img/argent.png"
+    },
+    {
+      "line": 4476,
+      "src": "img/defly.png"
+    },
+    {
+      "line": 4483,
+      "src": "img/midas.png"
+    },
+    {
+      "line": 4490,
+      "src": "img/tongue.png"
+    },
+    {
+      "line": 4497,
+      "src": "img/celo.png"
+    },
+    {
+      "line": 4504,
+      "src": "img/bridge wallet.png"
+    },
+    {
+      "line": 4511,
+      "src": "img/walletio.png"
+    },
+    {
+      "line": 4518,
+      "src": "img/coinomi.png"
+    },
+    {
+      "line": 4525,
+      "src": "img/dharma.png"
+    },
+    {
+      "line": 4532,
+      "src": "img/1inch.png"
+    },
+    {
+      "line": 4539,
+      "src": "img/walleth.png"
+    },
+    {
+      "line": 4546,
+      "src": "img/bitpay.png"
+    },
+    {
+      "line": 4553,
+      "src": "img/infinito.png"
+    },
+    {
+      "line": 4560,
+      "src": "img/defly.png"
+    },
+    {
+      "line": 4567,
+      "src": "img/huobi.png"
+    },
+    {
+      "line": 4574,
+      "src": "img/bitkeep.png"
+    },
+    {
+      "line": 4581,
+      "src": "img/jade.png"
+    },
+    {
+      "line": 4588,
+      "src": "img/stepn.png"
+    }
+  ],
+  "links": [
+    {
+      "line": 501,
+      "href": "https://app.internetmoney.io/"
+    },
+    {
+      "line": 1208,
+      "href": "https://t.me/internetmoneyio"
+    },
+    {
+      "line": 1705,
+      "href": "/ios"
+    },
+    {
+      "line": 1707,
+      "href": "/android"
+    },
+    {
+      "line": 1711,
+      "href": "/chrome"
+    },
+    {
+      "line": 3328,
+      "href": "/ios"
+    },
+    {
+      "line": 3331,
+      "href": "/android"
+    },
+    {
+      "line": 3335,
+      "href": "/chrome"
+    },
+    {
+      "line": 3731,
+      "href": "/ios"
+    },
+    {
+      "line": 3733,
+      "href": "/android"
+    },
+    {
+      "line": 3737,
+      "href": "/chrome"
+    },
+    {
+      "line": 4028,
+      "href": "https://t.me/internetmoneyio"
+    },
+    {
+      "line": 4030,
+      "href": "https://twitter.com/internetmoneyio"
+    },
+    {
+      "line": 4033,
+      "href": "https://reddit.com/r/internetmoneyio"
+    },
+    {
+      "line": 4036,
+      "href": "https://youtube.com/internetmoneyio"
+    },
+    {
+      "line": 4039,
+      "href": "https://gitlab.com/internetmoneyio/"
+    },
+    {
+      "line": 4154,
+      "href": "privacy-policy.html"
+    },
+    {
+      "line": 4170,
+      "href": "terms-of-service.pdf"
+    },
+    {
+      "line": 4239,
+      "href": "#"
+    },
+    {
+      "line": 4239,
+      "href": "#"
+    }
+  ]
+}

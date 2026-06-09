@@ -1,0 +1,44 @@
+﻿@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-ThinCond.woff') format('woff');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-LightExt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-LightExtObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-HeavyExt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-HeavyExtObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-BoldExt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Helvetica Neue'), url('../s/14188/HelveticaNeue-BlackExt.woff') format('woff');
+}
+
+
